@@ -1,0 +1,51 @@
+[
+  {
+    "id": "sobre-pokemon-escarabajo",
+    "name": "Sobre Escarlata y Púrpura",
+    "category": "Pokemon TCG",
+    "price": 18500,
+    "categoryId": "pokemon",
+    "images": [
+      "images/products/sobre-escarabajo-1.jpg",
+      "images/products/sobre-escarabajo-2.jpg"
+    ],
+    "description": "Sobre de la expansión Escarlata y Púrpura. Incluye 10 cartas y 1 código.",
+    "attributes": [
+      { "name": "Idioma", "options": ["Español", "Inglés"] }
+    ],
+    "bestSeller": true,
+    "new": false
+  },
+  {
+    "id": "funko-pop-goku",
+    "name": "Funko Pop! Goku Ultra Instinto",
+    "category": "Funko Pop!",
+    "price": 65000,
+    "categoryId": "funko",
+    "images": [
+      "images/products/goku-ui-1.jpg",
+      "images/products/goku-ui-2.jpg"
+    ],
+    "description": "Figura coleccionable Goku Ultra Instinto. Edición especial.",
+    "attributes": [
+      { "name": "Variante", "options": ["Estándar", "Glow in the Dark"] }
+    ],
+    "bestSeller": true,
+    "new": true
+  },
+  {
+    "id": "ichiban-luffy",
+    "name": "Figura Ichiban Kuji Luffy",
+    "hero": true,
+    "category": "Ichiban",
+    "price": 120000,
+    "categoryId": "figuras",
+    "images": [
+      "images/products/luffy.jpg"
+    ],
+    "description": "Figura de Luffy de la línea Ichiban Kuji. Altura 25cm.",
+    "attributes": [],
+    "bestSeller": false,
+    "new": true
+  }
+]

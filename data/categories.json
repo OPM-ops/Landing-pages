@@ -1,0 +1,26 @@
+[
+  {
+    "id": "pokemon",
+    "name": "Pokémon TCG",
+    "icon": "fas fa-dragon",
+    "active": true
+  },
+  {
+    "id": "funko",
+    "name": "Funko Pop!",
+    "icon": "fas fa-box-open",
+    "active": true
+  },
+  {
+    "id": "figuras",
+    "name": "Figuras Ichiban",
+    "icon": "fas fa-cube",
+    "active": true
+  },
+  {
+    "id": "otros",
+    "name": "Otros Coleccionables",
+    "icon": "fas fa-star",
+    "active": false
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "image": "images/banners/instagram.jpg",
+    "title": "¡Síguenos en Instagram!",
+    "subtitle": "@oneplaymore",
+    "buttonText": "Ir a Instagram",
+    "link": "https://instagram.com/oneplaymore"
+  },
+  {
+    "image": "images/banners/placeholder.jpg",
+    "title": "Pokémon Day",
+    "subtitle": "Celebra con nosotros - 30% de descuento en sobres",
+    "buttonText": "Ver ofertas",
+    "link": "#productos"
+  },
+  {
+    "image": "images/banners/descuentos.jpg",
+    "title": "Descuentos especiales",
+    "subtitle": "Hasta 40% en Funkos seleccionados",
+    "buttonText": "Aprovecha",
+    "link": "#productos"
+  }
+]
