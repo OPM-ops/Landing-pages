@@ -1,0 +1,3600 @@
+[
+  {
+    "id": "mini-tin-lumiose-city-mtuus0ut",
+    "name": "Mini Tin Lumiose City",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "otros-productos",
+    "price": 57000,
+    "originalPrice": 60000,
+    "description": "La Lumiose City Mini Tin es una pequeña lata coleccionable inspirada en Ciudad Luminalia, con cinco diseños diferentes para coleccionar. Cada lata presenta una ilustración que forma parte de un panorama más grande cuando se reúnen las cinco versiones.\n\nUna opción ideal para quienes buscan una presentación compacta, coleccionable y con algunos sobres para abrir.",
+    "expansion": "Otros",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "2 sobres de Pokémon TCG",
+      "1 hoja de stickers",
+      "1 tarjeta ilustrada con el mismo diseño de la Mini Tin"
+    ],
+    "images": [
+      "images/products/pokemon_lumiosecity_minitins_eternacards-251590a047217282b117818155470656-640-0.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 57000
+          }
+        ]
+      }
+    ],
+    "stock": 6
+  },
+  {
+    "id": "tin-daynight-30th-celebration-mtutpv0p",
+    "name": "Tin Day/Night 30th Celebration",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "30th-celebration",
+    "price": 120000,
+    "description": "Celebra los 30 años de Pokémon con la 30th Celebration ex Tin, disponible en las versiones Day – Sylveon ex y Night – Greninja ex. Cada lata presenta a uno de estos poderosos Pokémon ex y combina una carta promocional exclusiva con sobres de la expansión especial 30th Celebration.\n\nUna presentación compacta y coleccionable, ideal para quienes quieren disfrutar de varias aperturas y conservar la lata como parte de su colección.",
+    "expansion": "30th aniversario",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 carta promocional foil de Sylveon ex o Greninja ex",
+      "4 sobres de 30th Celebration",
+      "1 lata metálica coleccionable"
+    ],
+    "images": [
+      "images/products/pokemon-ex-tin__MAIN_v2.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Aleatorio - Inglés",
+            "price": 120000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "figure-collection-mewmewtwo-30th-celebration-mtut92td",
+    "name": "Figure Collection Mew/Mewtwo 30th Celebration",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "30th-celebration",
+    "price": 140000,
+    "description": "Celebra los 30 años de Pokémon con la 30th Celebration Figure Collection, protagonizada por dos de los Pokémon más icónicos de la franquicia: Mew o Mewtwo.\n\nCada colección combina una figura coleccionable con cartas promocionales y sobres de la expansión especial 30th Celebration, creando una presentación ideal tanto para abrir y coleccionar como para exhibir.",
+    "expansion": "30th aniversario",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 figura coleccionable de Mew o Mewtwo",
+      "1 carta promocional foil de Mew o Mewtwo",
+      "1 carta promocional jumbo holográfica de Mew o Mewtwo",
+      "5 sobres de Pokémon TCG: 30th Celebration"
+    ],
+    "images": [
+      "images/products/figure collection 30th.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Mew Inglés",
+            "price": 150000
+          },
+          {
+            "value": "Mew Español",
+            "price": 140000
+          },
+          {
+            "value": "Mewtwo Español",
+            "price": 140000
+          },
+          {
+            "value": "Mewtwo Inglés",
+            "price": 150000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "premium-ditto-collection-30th-celebration-mtusldp2",
+    "name": "Premium Ditto Collection 30th Celebration",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "30th-celebration",
+    "price": 215000,
+    "description": "Celebra los **30 años de Pokémon** con la **30th Celebration Premium Ditto Collection**, una colección especial protagonizada por uno de los Pokémon más impredecibles y queridos: **Ditto**.\n\nAdemás de una carta promocional exclusiva, esta colección incluye un colorido expositor acrílico diseñado para exhibir la promo o darle protagonismo a tu carta favorita de **30th Celebration**. Todo acompañado por ocho sobres de la expansión para disfrutar de nuevas aperturas y seguir completando tu colección.",
+    "expansion": "30th aniversario",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 carta promocional holográfica de Ditto",
+      "1 expositor acrílico para cartas",
+      "8 sobres de 30th Celebration"
+    ],
+    "images": [
+      "images/products/Pokemon_TCG_30th_Celebration_Ditto_Premium_Collection_EN.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 230000
+          },
+          {
+            "value": "Español",
+            "price": 215000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ultra-premium-collection-daynight-30th-celebration-mtusg2rm",
+    "name": "Ultra Premium Collection Day/Night 30th Celebration",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "30th-celebration",
+    "price": 935000,
+    "description": "Celebra los 30 años de Pokémon TCG con una de las colecciones más completas de 30th Celebration. Disponible en versión Day, protagonizada por Espeon ex, o Night, con Umbreon ex, esta Ultra-Premium Collection combina cartas promocionales exclusivas, accesorios especiales y una gran cantidad de sobres de la expansión.\n\nUna pieza pensada para coleccionistas que buscan una presentación especial y una experiencia de apertura a la altura de una celebración tan importante para Pokémon TCG.",
+    "expansion": "30th aniversario",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 carta promocional holográfica de Pikachu ex",
+      "1 carta promocional holográfica de Espeon ex o Umbreon ex",
+      "1 tapete de juego con Pikachu, Espeon o Umbreon y otros Pokémon",
+      "65 fundas para cartas",
+      "1 caja para cartas",
+      "1 moneda metálica de Espeon o Umbreon",
+      "6 dados contadores de daño",
+      "29 sobres de 30th Celebration",
+      "1 sobre especial de la Classic Collection, con 3 cartas de esta colección"
+    ],
+    "images": [
+      "images/products/UPC30th.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 950000
+          },
+          {
+            "value": "Español",
+            "price": 935000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "battle-deck-espeonumbreon-30th-celebration-mtus3ibt",
+    "name": "Battle Deck Espeon/Umbreon 30th Celebration",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "30th-celebration",
+    "price": 100000,
+    "description": "Lleva tus partidas a otro nivel con los 30th Celebration Battle Decks, una edición especial que celebra los 30 años de Pokémon TCG. Elige entre la versión de Espeon ex, inspirada en el día, o Umbreon ex, inspirada en la noche, y disfruta de un mazo completamente holográfico listo para jugar.\n\nCada versión incluye cartas exclusivas con estilo Rara Ilustración, convirtiendo estos mazos en una opción ideal tanto para comenzar a jugar como para sumar una pieza especial a tu colección.",
+    "expansion": "30th aniversario",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 mazo de 60 cartas holográficas",
+      "1 carta de estilo Rara Ilustración exclusiva: Victini en la versión Espeon ex o Zeraora en la versión Umbreon ex",
+      "1 portamazo",
+      "1 tapete de juego",
+      "1 moneda"
+    ],
+    "images": [
+      "images/products/WebsitePNG_13_d6f55234-289b-453c-a739-4e120c47479e.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Aleatorio - Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 120000
+          },
+          {
+            "value": "Aleatorio - Español",
+            "price": 100000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mini-tins-30th-celebration-mturxqub",
+    "name": "Mini Tins 30th Celebration",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "30th-celebration",
+    "price": 52000,
+    "description": "Celebra los 30 años de Pokémon con las 30th Celebration Mini Tins, pequeñas latas coleccionables con diseños especiales inspirados en diferentes Pokémon. Cada lata incluye sobres de la expansión 30th Celebration, stickers y una carta ilustrada que corresponde al diseño de la Mini Tin.\n\nHay 10 diseños diferentes para coleccionar, y las cartas ilustradas pueden combinarse para formar una colección especial de la celebración.",
+    "expansion": "30th aniversario",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 Mini Tin coleccionable con diseño de 30th Celebration",
+      "2 sobres de 30th Celebration",
+      "1 hoja de stickers",
+      "1 carta ilustrada de Pokémon"
+    ],
+    "images": [
+      "images/products/20036368.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 55000
+          },
+          {
+            "value": "Español",
+            "price": 52000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "booster-bundle-30th-celebration-mturt5lf",
+    "name": "Booster Bundle 30th Celebration",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "30th-celebration",
+    "price": 135000,
+    "description": "Celebra los 30 años de Pokémon con el 30th Celebration Booster Bundle, una presentación ideal para quienes quieren disfrutar de varias aperturas de esta expansión especial. En sus sobres podrás encontrar Pokémon de distintas generaciones, nuevas cartas de colección y una de las 30 ilustraciones diferentes de Pikachu que forman parte de esta celebración.\n\nUna opción sencilla y práctica para ampliar tu colección y descubrir qué sorpresas trae 30th Celebration.",
+    "expansion": "30th aniversario",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "6 sobres de 30th Celebration"
+    ],
+    "images": [
+      "images/products/20036326.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 140000
+          },
+          {
+            "value": "Español",
+            "price": 135000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "booster-evolving-skies-mturjuwt",
+    "name": "Booster Evolving Skies",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "evolving-skies",
+    "price": 30000,
+    "originalPrice": 35000,
+    "description": "Prepárate para una de las expansiones más queridas de Pokémon Cielos Evolutivos. Con Rayquaza VMAX como protagonista y las distintas Evoluciones de Eevee entre sus cartas más destacadas, cada sobre ofrece la oportunidad de descubrir nuevas cartas para tu colección.\n\nUna expansión que combina poderosos Pokémon de tipo Dragón, Pokémon V y VMAX y algunas de las evoluciones de Eevee más buscadas.",
+    "expansion": "Evolving Skies",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "10 cartas de la expansión"
+    ],
+    "images": [
+      "images/products/Untitled-2_-_2024-12-12T153741.620.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 30000
+          }
+        ]
+      }
+    ],
+    "stock": 1
+  },
+  {
+    "id": "binder-colletion-30th-celebration-mtuqhzzr",
+    "name": "Binder Colletion 30th Celebration",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "30th-celebration",
+    "price": 170000,
+    "description": "Celebra los 30 años de Pokémon y luce tus cartas favoritas con la 30th Celebration Binder Collection. Este álbum de 9 bolsillos presenta un diseño conmemorativo de la celebración y ofrece una forma práctica de organizar y proteger tu colección.\n\nAdemás, incluye cinco sobres de la expansión especial 30th Celebration, para comenzar a llenar tu binder con nuevas cartas desde el primer momento.",
+    "expansion": "30th aniversario",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 álbum de 9 bolsillos con diseño especial de 30th Celebration",
+      "5 sobres de 30th Celebration"
+    ],
+    "images": [
+      "images/products/20036370_ALT01.avif"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 180000
+          },
+          {
+            "value": "Español",
+            "price": 170000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "poster-colletion-30th-celebration-mtuqdvc1",
+    "name": "Poster Colletion 30th Celebration",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "30th-celebration",
+    "price": 76000,
+    "description": "Celebra los 30 años de Pokémon TCG con la 30th Celebration Poster Collection, una colección especial que reúne a tres de los Pokémon legendarios más icónicos de Kanto: Articuno, Zapdos y Moltres.\n\nAdemás de sus tres cartas promocionales holográficas, incluye sobres de la expansión 30th Celebration y un póster de doble cara con ilustraciones de más de 160 cartas del set, ideal para exhibir y disfrutar de esta celebración.",
+    "expansion": "30th aniversario",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "3 cartas promocionales holográficas: Articuno, Zapdos y Moltres",
+      "1 póster de doble cara de aproximadamente 68 × 99 cm, con imágenes de más de 160 cartas de 30th Celebration",
+      "3 sobres de Pokémon TCG: 30th Celebration"
+    ],
+    "images": [
+      "images/products/Pokemon_TCG_30th_Celebration_Poster_Collection_EN.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 85000
+          },
+          {
+            "value": "Español",
+            "price": 76000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tech-sticker-colletion-30th-celebration-mtuq8axo",
+    "name": "Tech Sticker Colletion 30th Celebration",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "30th-celebration",
+    "price": 70000,
+    "description": "Celebra los 30 años de Pokémon con la 30th Celebration Tech Sticker Collection, una colección que combina cartas y stickers en una presentación especial. Disponible con Alolan Exeggutor o Lucario, cada versión incluye una carta promocional foil y una hoja de stickers inspirada en el Pokémon protagonista, acompañadas por tres sobres de la expansión 30th Celebration.\n\nUna opción ideal para quienes quieren disfrutar de la celebración, abrir algunos sobres y sumar una pieza diferente a su colección.",
+    "expansion": "30th aniversario",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 carta promocional de Alolan Exeggutor o Lucario",
+      "1 hoja de Tech Stickers del Pokémon correspondiente",
+      "3 sobres de Pokémon TCG: 30th Celebration"
+    ],
+    "images": [
+      "images/products/pokemon-30th-celebration-english-tech-sticker-collection_512x512.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Exeggutor Inglés",
+            "price": 80000
+          },
+          {
+            "value": "Exeggutor Español",
+            "price": 80000
+          },
+          {
+            "value": "Lucario Inglés",
+            "price": 70000
+          },
+          {
+            "value": "Lucario Español",
+            "price": 70000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sylveongreninja-ex-box-30th-celebration-mtuq0hn0",
+    "name": "Sylveon/Greninja ex Box 30th Celebration",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "30th-celebration",
+    "price": 110000,
+    "description": "Celebra los 30 años de Pokémon con la 30th Celebration Pokémon ex Box, disponible en versiones de Sylveon ex y Greninja ex. Cada caja combina una carta promocional exclusiva, su versión jumbo para exhibición y cuatro sobres de la expansión especial 30th Celebration.\n\nUna colección pensada para disfrutar la celebración tanto abriendo sobres como sumando una pieza especial a tu colección.",
+    "expansion": "30th aniversario",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 carta promocional de Sylveon ex o Greninja ex",
+      "1 carta jumbo de Sylveon ex o Greninja ex",
+      "4 sobres de Pokémon TCG: 30th Celebration"
+    ],
+    "images": [
+      "images/products/PKU10463-2PK-1__85377.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Sylveon Inglés",
+            "price": 120000
+          },
+          {
+            "value": "Greninja Inglés",
+            "price": 120000
+          },
+          {
+            "value": "Greninja Español",
+            "price": 110000
+          },
+          {
+            "value": "Sylveon Español",
+            "price": 110000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elite-trainer-box-30th-celebration-mtupshsz",
+    "name": "Elite Trainer Box 30th Celebration",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "30th-celebration",
+    "price": 235000,
+    "description": "Celebra tres décadas de Pokémon con la 30th Celebration Elite Trainer Box, una edición especial que reúne nostalgia y nuevas sorpresas en una sola colección. En sus sobres podrás descubrir Pokémon de distintas generaciones y las 30 variaciones de Pikachu Rare que forman parte de esta celebración.",
+    "expansion": "30th aniversario",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "9 sobres de 30th Celebration",
+      "1 carta promocional Full Art de Nidorina",
+      "65 fundas para cartas",
+      "16 cartas de Energía Básica foil",
+      "1 guía para jugadores de 30th Celebration",
+      "6 dados contadores de daño",
+      "1 dado para lanzamiento de moneda válido para competencias",
+      "1 moneda plástica conmemorativa",
+      "1 caja de colección con 6 divisores"
+    ],
+    "images": [
+      "images/products/Pokemon_TCG_30th_Celebration_Elite_Trainer_Box_EN.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 235000
+          },
+          {
+            "value": "Inglés",
+            "price": 240000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "booster-bundle-delta-reign-mtupgb98",
+    "name": "Booster Bundle Delta Reign",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "delta-reign",
+    "price": 135000,
+    "description": "Una tormenta legendaria se acerca con Delta Reign. El Booster Bundle reúne varios sobres de la expansión en una sola presentación, ideal para quienes buscan ampliar su colección, descubrir nuevas cartas y disfrutar de varias aperturas de Delta Reign.",
+    "expansion": "Delta Reign",
+    "status": "preventa",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "6 sobres de Delta Reign"
+    ],
+    "images": [
+      "images/products/pokemon-trading-card-game-delta-reign-booster-bundle.avif"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 140000
+          },
+          {
+            "value": "Español",
+            "price": 135000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elite-trainer-box-delta-reign-mtupbr0s",
+    "name": "Elite Trainer Box Delta Reign",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "delta-reign",
+    "price": 235000,
+    "description": "Prepárate para una nueva tormenta con la Elite Trainer Box de Delta Reign. Con Mega Rayquaza ex como protagonista, esta ETB reúne sobres de la expansión, una carta promocional exclusiva de Kyogre y diferentes accesorios para jugadores y coleccionistas. Una presentación completa para disfrutar y explorar todo lo que trae Delta Reign.",
+    "expansion": "Delta Reign",
+    "status": "preventa",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "9 sobres de Delta Reign",
+      "1 carta promocional foil de arte completo de Kyogre",
+      "65 fundas para cartas",
+      "40 cartas de Energía",
+      "1 guía del jugador de Delta Reign",
+      "6 dados contadores de daño",
+      "1 dado de lanzamiento de moneda válido para competencias",
+      "1 moneda",
+      "1 caja de colección con 6 divisores"
+    ],
+    "images": [
+      "images/products/Pokemon-Delta-Reign-Elite-Trainer-Box-Mock-Up.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 235000
+          },
+          {
+            "value": "Inglés",
+            "price": 235000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "booster-delta-reign-mtup5xpy",
+    "name": "Booster Delta Reign",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "delta-reign",
+    "price": 20000,
+    "description": "Desata una nueva tormenta con Delta Reign. Cada sobre te da la oportunidad de descubrir nuevas cartas de la expansión, con Pokémon como Mega Rayquaza ex, Mega Golurk ex, Mega Malamar ex y Mega Golisopod ex entre sus protagonistas. Una opción ideal para coleccionar, completar el set o simplemente disfrutar de una buena apertura.",
+    "expansion": "Delta Reign",
+    "status": "preventa",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "10 cartas aleatorias por sobre"
+    ],
+    "images": [
+      "images/products/2_347067_e.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 21000
+          },
+          {
+            "value": "Español",
+            "price": 20000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "build-battle-delta-reign-mtuom7q0",
+    "name": "Build & Battle Delta Reign",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "delta-reign",
+    "price": 100000,
+    "description": "Prepárate para construir tu mazo y entrar en batalla con Pokémon Delta Reign. Esta Build & Battle Box combina sobres de la nueva expansión con un mazo de 40 cartas listo para jugar, ideal para comenzar a explorar las nuevas estrategias de Delta Reign y enfrentarte a otros jugadores.",
+    "expansion": "Delta Reign",
+    "status": "preventa",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 mazo de 40 cartas listo para jugar",
+      "1 de 4 cartas promocionales foil exclusivas",
+      "4 sobres de Delta Reign"
+    ],
+    "images": [
+      "images/products/P11222-ME06_3D_Build_and_Battle_Outer_Sleeve_Right_EN-1549x2086-db80518.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 105000
+          },
+          {
+            "value": "Español",
+            "price": 100000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3-blister-delta-reign-mtuohc0f",
+    "name": "3 Blíster Delta Reign",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "delta-reign",
+    "price": 65000,
+    "description": "El blíster de 3 sobres es una excelente opción para coleccionistas y jugadores que quieren abrir algunos sobres de la expansión y llevarse además una carta promocional exclusiva. Una presentación compacta, ideal tanto para abrir como para conservar sellada.",
+    "expansion": "Delta Reign",
+    "status": "preventa",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "3 sobres de Delta Reign",
+      "1 carta promocional de Seel"
+    ],
+    "images": [
+      "images/products/Pokemon-Delta-Reign-3-Booster-Pack-Blister-Seel.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 70000
+          },
+          {
+            "value": "Español",
+            "price": 65000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "booster-box-delta-reign-mtukha34",
+    "name": "Booster Box Delta Reign",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "delta-reign",
+    "price": 685000,
+    "description": "Asegura la máxima experiencia de apertura. Esta caja sellada es perfecta para completar tu set mucho más rápido, organizar drafts con amigos o ir directo por las cartas más valiosas de la expansión. ¡Lleva tu mazo al siguiente nivel asegurando el mejor valor posible por cada sobre!",
+    "expansion": "Delta Reign",
+    "status": "preventa",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "36 sobres de Mega Evolution—Perfect Order",
+      "Cada sobre contiene 10 cartas"
+    ],
+    "images": [
+      "images/products/P11222-ME06_3D_Booster_Display_36ct_Left_EN-3644x5001-40d6697.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 700000
+          },
+          {
+            "value": "Español",
+            "price": 685000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ultra-premium-collection-mega-charizard-x-mtujljue",
+    "name": "Ultra Premium Collection Mega Charizard X",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "otros-productos",
+    "price": 720000,
+    "originalPrice": 750000,
+    "description": "¡El poder de la Megaevolución desata sus llamas azules en One Play More! Celebra a uno de los Pokémon más icónicos con esta imponente caja de colección. Diseñada tanto para arrasar en el formato competitivo como para lucir increíble en tu repisa, esta UPC viene con accesorios premium exclusivos y una selección brutal de sobres para que caces tus cartas favoritas.",
+    "expansion": "Otros",
+    "status": "agotado",
+    "new": true,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "4 Sobres Phantasmal Flames",
+      "4 Sobres Megaevolution",
+      "4 Sobres Destined Rivals",
+      "4 Sobres Journey Together",
+      "2 Sobres Surging Sparks",
+      "1 Carta promo exclusiva de Mega Charizard X.",
+      "1 Carta promo de Oricorio ex.",
+      "1 Playmat premium protagonizado por Mega Charizard X.",
+      "1 Caja para mazo (Deck box) a juego.",
+      "65 Fundas protectoras con diseño exclusivo.",
+      "1 Moneda metálica de colección.",
+      "6 Dados contadores de daño de alta calidad."
+    ],
+    "images": [
+      "images/products/Ultra-Premium-Collection-Mega-Charizard-X-EX-2.png.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 720000
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "location": "Mi casa"
+  },
+  {
+    "id": "protector-case-para-elite-trainer-box-mtucvs7w",
+    "name": "Protector Case para Elite Trainer Box",
+    "category": "Accesorios",
+    "categoryId": "accesorios",
+    "price": 12000,
+    "description": "En One Play More sabemos lo importante que es mantener tus colecciones intactas. Este case protector de plástico para ETB te ofrece una defensa resistente y ultra transparente para que exhibas tus cajas selladas con total tranquilidad.",
+    "expansion": "accesorios",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "Case protector para Elite Trainer Box"
+    ],
+    "images": [
+      "images/products/protector case.png"
+    ],
+    "attributes": [
+      {
+        "name": "Marca",
+        "options": [
+          {
+            "value": "Cardonix",
+            "price": 12000
+          }
+        ]
+      }
+    ],
+    "stock": 8,
+    "cost": 7000,
+    "location": "Casa de Clau"
+  },
+  {
+    "id": "dondozo-ex---dri-066182-mt6cg18l",
+    "name": "Dondozo ex - DRI-066/182",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "cartas-ex",
+    "price": 4000,
+    "description": "Carta 066/182 de Destined Rivals de Dondozo ex en español, perfecto estado (Near Mint)",
+    "expansion": "Destined Rivals",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/card/Dondozo-ex-066-182-Destined-Rivals-Holo_1024x.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 4000
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "location": "Mi casa"
+  },
+  {
+    "id": "arboliva-ex---dri-023182-mt6c9ul0",
+    "name": "Arboliva ex - DRI-023/182",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "cartas-ex",
+    "price": 4000,
+    "description": "[\n  {\n    \"name\": \"Idioma\",\n    \"options\": [\n      {\n        \"value\": \"Español\",\n        \"price\": 4000\n      }\n    ]\n  }\n]",
+    "expansion": "Destined Rivals",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/card/s-l1200.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 4000
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "location": "Mi casa"
+  },
+  {
+    "id": "terapagos-ex---scr-128142-mt6c2vea",
+    "name": "Terapagos ex - SCR-128/142",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "cartas_estandar",
+    "price": 4000,
+    "description": "Carta 128/142 Terapagos ex en inglés, perfecto estado (Near Mint)",
+    "expansion": "Stellar Crown",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/card/128_hires.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés Near Mint",
+            "price": 4000
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "location": "Mi casa"
+  },
+  {
+    "id": "greavard---svi-105198-mt6bw67d",
+    "name": "Greavard - SVI-105/198",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "cartas_estandar",
+    "price": 1000,
+    "description": "Carta holográfica 105/198 Scarlet & Violet Base set de Greavard  en español, perfecto estado (Near Mint)",
+    "expansion": "Scarlet & Violet",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/card/s-l1200.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma-versión",
+        "options": [
+          {
+            "value": "Inglés holográfica",
+            "price": 1000
+          }
+        ]
+      }
+    ],
+    "stock": 5,
+    "location": "Mi casa"
+  },
+  {
+    "id": "mabosstiff-ex---svp-086-mt6bg7lu",
+    "name": "Mabosstiff ex - SVP-086",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "cartas-ex",
+    "price": 3000,
+    "originalPrice": 4000,
+    "description": "Carta promocional 86 de Scarlet & Violet de Mabosstiff en español, perfecto estado (Near Mint)",
+    "expansion": "Promo Scarlet & Violet",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/card/SVP_EN_86.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "EspañolNear Mint",
+            "price": 3000
+          }
+        ]
+      }
+    ],
+    "stock": 4,
+    "location": "Mi casa"
+  },
+  {
+    "id": "venusaur---ccc-15102-mt6b1d0e",
+    "name": "Venusaur - CCC-15/102",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "cartas_estandar",
+    "price": 70000,
+    "description": "Carta perteneciente al set Celebrations: Classic Collection de Venusaur en inglés, perfecto estado (Near Mint)",
+    "expansion": "Celebrations",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/card/1610.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés Near Mint",
+            "price": 70000
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "location": "Mi casa"
+  },
+  {
+    "id": "gothitelle---svp-211-mt6ad6j6",
+    "name": "Gothitelle - SVP-211",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "ilustraciones_raras",
+    "price": 12000,
+    "description": "Carta promocional 211 de Scarlet & Violet - Black Bolt & White Flare de Gothitelle, perfecto estado (Near Mint)",
+    "expansion": "Black Bolt & White Flare",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/card/Gothitelle.SVPEN.211.57803.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés Near Mint",
+            "price": 12000
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "location": "Mi casa"
+  },
+  {
+    "id": "binacle-cosmos-holo---mep-087-mt6a2jez",
+    "name": "Binacle (Cosmos Holo) - MEP-087",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "cartas_estandar",
+    "price": 1500,
+    "description": "Carta promocional 87 de la era Megaevolution Pitch Black, Binacle en inglés, perfecto estado (Near Mint)",
+    "expansion": "Pitch Black",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/card/product_706131.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés Near Mint",
+            "price": 1500
+          }
+        ]
+      }
+    ],
+    "stock": 1
+  },
+  {
+    "id": "thievul---pbl-092084-mt69smy5",
+    "name": "Thievul - PBL-092/084",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "ilustraciones_raras",
+    "price": 8500,
+    "originalPrice": 9500,
+    "description": "Carta 092/084 de Thievul en Inglés, perfecto estado (Near Mint)",
+    "expansion": "Pitch Black",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": true,
+    "encargo": false,
+    "images": [
+      "images/card/ME05_EN_92.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés Near Mint",
+            "price": 8500
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "location": "Mi casa"
+  },
+  {
+    "id": "larrys-dudunsparce-ex---asc-164217-mt3accin",
+    "name": "Larry's Dudunsparce ex - ASC-164/217",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "cartas-ex",
+    "price": 3500,
+    "description": "Carta 164/217 del Dudunsparce de Larry's en Inglés, perfecto estado (Near Mint)",
+    "expansion": "Ascended Heroes",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/card/ME2PT5_EN_164.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés Near Mint",
+            "price": 3500
+          }
+        ]
+      }
+    ],
+    "stock": 1
+  },
+  {
+    "id": "hoopa-ex---par-098182-mt3a0jgz",
+    "name": "Hoopa ex - PAR-098/182",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "cartas-ex",
+    "price": 3500,
+    "description": "Carta 098/182 de Hoopa ex en Español, perfecto estado (Near Mint)",
+    "expansion": "Paradox Rift",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/card/SV04_ES_98.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español Near Mint",
+            "price": 3500
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "location": "Mi casa"
+  },
+  {
+    "id": "cynthias-gabite-cosmos-holo---dri-103182-mt39kg4h",
+    "name": "Cynthia's Gabite (Cosmos Holo) - DRI-103/182",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "cartas_estandar",
+    "price": 5500,
+    "originalPrice": 6000,
+    "description": "Carta con holográfico cosmo exclusivo, perfecto estado (Near Mint)",
+    "expansion": "Destined Rivals",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": true,
+    "encargo": false,
+    "images": [
+      "images/card/1600.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español Near Mint",
+            "price": 5500,
+            "originalPrice": 6000
+          },
+          {
+            "value": "Inglés Near Mint",
+            "price": 5500,
+            "originalPrice": 6000
+          }
+        ]
+      }
+    ],
+    "stock": 3,
+    "location": "Mi casa"
+  },
+  {
+    "id": "mega-gardevoir-ex---mep-032-mt38v2eu",
+    "name": "Mega Gardevoir ex - MEP-032",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "ilustraciones_raras",
+    "price": 30000,
+    "description": "Carta promocional 32 de Ascended Heroes de Mega Gardevoir en inglés, perfecto estado (Near Mint)",
+    "expansion": "Promo",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/card/mega-garde.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés Near Mint",
+            "price": 30000
+          }
+        ]
+      }
+    ],
+    "stock": 2,
+    "location": "Mi casa"
+  },
+  {
+    "id": "ns-zekrom--mep-031-mt38a8wx",
+    "name": "N's Zekrom -MEP-031",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "ilustraciones_raras",
+    "price": 30000,
+    "description": "Carta Promocional 031 de la ETB Ascended Heroes en Inglés N's Zekrom, perfecto estado (Near Mint)",
+    "expansion": "Promo",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/card/663121fb55e4705fdf5cb3689ceca1bd-ekr.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés Near Mint",
+            "price": 30000
+          }
+        ]
+      }
+    ],
+    "stock": 2,
+    "location": "Mi casa"
+  },
+  {
+    "id": "palafin---paf-225091-mt2hq8l9",
+    "name": "Palafin - PAF-225/091",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "ilustraciones_raras",
+    "price": 8000,
+    "description": "Carta 225/091 Palafin en español, perfecto estado (Near Mint)",
+    "expansion": "ilustracion_raras",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/card/PAF_225_R_EN_LG.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español Near Mint",
+            "price": 8000
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "location": "Mi casa"
+  },
+  {
+    "id": "bravery-charm---sv7-134102-mt2hhorf",
+    "name": "Bravery Charm - SV7-134/102",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "ilustraciones_raras",
+    "price": 10500,
+    "originalPrice": 12000,
+    "description": "Carta 134/102 Bravery Charm en Japonés, perfecto estado (Near Mint)",
+    "expansion": "ilustracion_raras",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": true,
+    "encargo": false,
+    "images": [
+      "images/card/d5f05fb6c32dd2c711880792a10c6c5ac0c535e8c9fdcec82ef2e83194a37457.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Japonés Near Mint",
+            "price": 10500,
+            "originalPrice": 12000
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "location": "Mi casa"
+  },
+  {
+    "id": "teal-mask-ogerpon-twilight-masquerade-stamp--twm-024167-mt21b8ow",
+    "name": "Teal Mask Ogerpon (Twilight Masquerade Stamp) -TWM-024/167",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "ilustraciones_raras",
+    "price": 45000,
+    "originalPrice": 50000,
+    "description": "Carta con estampa exclusiva de Mascara Turquesa Ogerpon en español, perfecto estado aun con envoltorio (Near Mint)",
+    "expansion": "ilustracion_raras",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": true,
+    "encargo": false,
+    "images": [
+      "images/card/240.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español Near Mint",
+            "price": 45000,
+            "originalPrice": 50000
+          }
+        ]
+      }
+    ],
+    "stock": 5
+  },
+  {
+    "id": "hisuian-typhlosion--052189-swsh10expansion-stamp-mt1zty9h",
+    "name": "Hisuian Typhlosion (GameStop Exclusive) - SWSH10-052/189",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "ilustraciones_raras",
+    "price": 15000,
+    "description": "Carta 052/189 Hisuian Typhlosion (GameStop Exclusive), perfecto estado (Near Mint)",
+    "expansion": "ilustracion_raras",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/card/274412_in_1000x1000.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés Near Mint",
+            "price": 15000
+          }
+        ]
+      }
+    ],
+    "stock": 5
+  },
+  {
+    "id": "crushing-hammer---pbl-105084-mt1flq9t",
+    "name": "Crushing Hammer - PBL-105/084",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "ilustraciones_raras",
+    "price": 18500,
+    "originalPrice": 20000,
+    "description": "Carta 105/84 Martillo Demoledor en español, perfecto estado (Near Mint)",
+    "expansion": "ilustracion_raras",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "images/card/Crushing-Hammer.PBL.105.61834.webp"
+    ],
+    "images": [
+      "images/card/Crushing-Hammer.PBL.105.61834.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español Near Mint",
+            "price": 18500,
+            "originalPrice": 20000
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "location": "Mi casa"
+  },
+  {
+    "id": "final-form-freezer-battle-of-the-super-saiyan-mszn77fw",
+    "name": "Final Form Freezer (Battle of the Super Saiyan)",
+    "category": "Figuras",
+    "categoryId": "figuras",
+    "subcategoryId": "ichibansho",
+    "price": 236000,
+    "description": "Bandai Spirits Ichibansho Masterlise\n\nLa maldad y arrogancia de uno de los villanos más emblemáticos de Dragon Ball Z llegan a tu colección con Frieza (Battle of the Super Saiyan), una impresionante figura de la línea Ichibansho Masterlise de Bandai Spirits.\n\nEsta pieza representa a Frieza en su forma final, capturado en una pose dinámica mientras prepara una poderosa esfera de energía sobre su mano. El efecto de energía, acompañado por sus característicos rayos de color rosa, aporta una presencia especialmente llamativa a la figura y recrea la sensación de poder y destrucción que caracteriza al emperador del universo.",
+    "expansion": "Ichibansho",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": true,
+    "encargoNota": "3-5 días hábiles",
+    "includes": [
+      "1 figura de Frieza (Battle of the Super Saiyan).",
+      "Efecto de energía incluido como parte de la figura."
+    ],
+    "images": [
+      "images/products/Copy_of_Website_Image_Template9999-8162__80572.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Marca",
+        "options": [
+          {
+            "value": "Ichibansho",
+            "price": 236000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "model-kit-miraidon-mszmjcx6",
+    "name": "Model Kit Miraidon",
+    "category": "Figuras",
+    "categoryId": "figuras",
+    "subcategoryId": "model-kits",
+    "price": 110000,
+    "originalPrice": 115000,
+    "description": "Lleva a tu colección al imponente Miraidon, el Pokémon legendario que acompaña a los Entrenadores en su aventura por la región de Paldea. Este model kit forma parte de la línea Pokémon Plamo Collection Select Series de BANDAI SPIRITS y recrea fielmente el diseño futurista de este Pokémon.\n\nDiseñado para ofrecer una experiencia de armado accesible y satisfactoria, el kit utiliza un sistema de ensamblaje a presión que permite construir el modelo sin necesidad de pegamento ni herramientas especiales. Sus piezas vienen moldeadas en diferentes colores, permitiendo conseguir un acabado atractivo directamente desde el armado.",
+    "expansion": "Model Kit",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": true,
+    "encargo": true,
+    "encargoNota": "3-5 días hábiles",
+    "includes": [
+      "Piezas para construir a Miraidon.",
+      "Base de exhibición.",
+      "Hoja de stickers.",
+      "Manual de instrucciones."
+    ],
+    "images": [
+      "images/products/Gamenerdzimagez2339__36721.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Marca",
+        "options": [
+          {
+            "value": "Bandai Spirit",
+            "price": 110000,
+            "originalPrice": 115000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fezandipiti-ex---sfa-073064-msytwb4o",
+    "name": "Fezandipiti ex - SFA-073/064",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "price": 40000,
+    "originalPrice": 43000,
+    "description": "Carta 073/064 de Fezandipiti ex en Español, perfecto estado (Near Mint)",
+    "expansion": "ilustracion_raras",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": true,
+    "encargo": false,
+    "images": [
+      "images/card/SV6PT5_EN_73.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español Near Mint",
+            "price": 40000,
+            "originalPrice": 43000
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "cost": 22000
+  },
+  {
+    "id": "first-partner-illustration-collection-series-1-msxykona",
+    "name": "First Partner Illustration Collection Series 1",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "otros-productos",
+    "price": 120000,
+    "description": "¡30 años de Pokémon comienzan con un primer compañero!\n\nDesde el inicio de cada aventura, los Pokémon iniciales han acompañado a los Entrenadores en sus primeros pasos. La First Partner Illustration Collection Series 1 celebra a algunos de los compañeros más queridos de la historia de Pokémon con nuevas ilustraciones de estilo Illustration Rare, convirtiéndola en una colección especial tanto para jugadores como para coleccionistas.\n\nEsta primera serie reúne a Pokémon iniciales de las regiones de Kanto, Sinnoh y Alola, presentados en un producto diseñado para celebrar el vínculo único entre un Entrenador y su primer compañero.",
+    "expansion": "Otros",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 sobre especial First Partner, que contiene cartas promocionales que corresponden a Pokémon iniciales de Kanto, Sinnoh o Alola.",
+      "1 sobre de Mega Evolution",
+      "1 sobre de Phantasmal Flames",
+      "1 hoja de stickers con diseños inspirados en los Pokémon iniciales."
+    ],
+    "images": [
+      "images/products/First-Partner-Illustration-Collection.png.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 120000
+          }
+        ]
+      }
+    ],
+    "stock": 1
+  },
+  {
+    "id": "booster-journey-together-msxxmsz3",
+    "name": "Booster Journey Together",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "journey-together",
+    "price": 23000,
+    "originalPrice": 25000,
+    "description": "La unión entre un Entrenador y su Pokémon puede convertir una batalla en una verdadera aventura.\n\nDescubre Scarlet & Violet Journey Together, una expansión que marca el regreso de los Pokémon de Entrenadores al Juego de Cartas Coleccionables Pokémon, con personajes como N, Iono, Lillie y Hop formando equipo con sus Pokémon.\n\nCada sobre contiene una selección aleatoria de cartas de la expansión, ofreciéndote la oportunidad de encontrar poderosos Pokémon ex, cartas de Entrenadores y espectaculares cartas de ilustración especial.",
+    "expansion": "Journey Together",
+    "status": "proximamente",
+    "new": true,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "10 cartas de la expansión"
+    ],
+    "images": [
+      "images/products/Journey_Together_Booster_Packs_600x_webp.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 23000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "booster-destined-rivals-msxxf9d8",
+    "name": "Booster Destined Rivals",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "destined-rivals",
+    "price": 25000,
+    "description": "El Team Rocket ha vuelto, y esta vez sus planes enfrentan a algunos de los Entrenadores más poderosos del mundo Pokémon.\n\nDescubre Scarlet & Violet Destined Rivals (Rivales Predestinados), una expansión llena de enfrentamientos entre héroes y villanos, donde podrás unir fuerzas con Entrenadores como Cynthia, Ethan y Arven, o luchar junto al Team Rocket bajo el mando de Giovanni.",
+    "expansion": "Destined Rivals",
+    "status": "proximamente",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "10 cartas de la expansión"
+    ],
+    "images": [
+      "images/products/2_290439_e_2408884a-22a1-4075-b285-28ebad38898d.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 25000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "booster-astral-radiance-msxwwcnm",
+    "name": "Booster Astral Radiance",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "sword-shield",
+    "price": 30000,
+    "description": "Viaja hasta la antigua región de Hisui y descubre los misterios de Astral Radiance, una de las expansiones más destacadas de la era Sword & Shield.\n\nCada sobre te brinda la oportunidad de encontrar poderosos Pokémon V y VSTAR, incluyendo a Palkia Origen VSTAR y Dialga Origen VSTAR, además de Pokémon de Hisui y las especiales cartas Radiant Pokémon.\n\nTambién podrás descubrir cartas de la Trainer Gallery, con increíbles ilustraciones que muestran a Pokémon junto a sus Entrenadores.",
+    "expansion": "Sword & Shield",
+    "status": "proximamente",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "10 cartas de la expansión",
+      "1 carta de Energía Básica o marcador VSTAR"
+    ],
+    "images": [
+      "images/products/15831761813848-cc80b00b49d9b467bdd81ff4d15d2873fb8bb421.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 30000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "booster-origen-perdido-msxwgyyj",
+    "name": "Booster Origen Perdido",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "sword-shield",
+    "price": 35000,
+    "description": "Adéntrate en la Lost Zone con un sobre de Pokémon TCG: Sword & Shield Lost Origin, una expansión donde las dimensiones comienzan a distorsionarse y Pokémon poderosos aprovechan el misterioso poder de la Lost Zone.\n\nCada sobre es una nueva oportunidad para descubrir cartas de gran rareza, Pokémon V y VSTAR, cartas Radiant y espectaculares cartas de la Trainer Gallery.",
+    "expansion": "Sword & Shield",
+    "status": "proximamente",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "10 cartas de juego",
+      "1 carta de Energía Básica o marcador VSTAR"
+    ],
+    "images": [
+      "images/products/Sword_ShieldLostOriginBoosterPacks_600x.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 35000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "one-piece-ichibansho-ace-sabo-luffy-dramatic-memories-mswrha2g",
+    "name": "One Piece Ichibansho Ace, Sabo & Luffy Dramatic Memories",
+    "category": "Figuras",
+    "categoryId": "figuras",
+    "subcategoryId": "ichibansho",
+    "price": 255000,
+    "description": "Revive uno de los momentos más emotivos de One Piece con esta espectacular figura de Ace, Sabo y Luffy, perteneciente a la colección Ichibansho Dramatic Memories de Bandai Spirits.\n\nLa figura representa a los tres hermanos jurados durante su infancia, capturando el vínculo, la amistad y el espíritu de aventura que los une.",
+    "expansion": "Ichibansho",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": false,
+    "encargo": true,
+    "encargoNota": "2-4 días habiles",
+    "includes": [
+      "Colección: Ichibansho — Dramatic Memories",
+      "Línea: Revible Moment",
+      "Altura aproximada: 10 cm",
+      "Material: PVC y ABS",
+      "Figura pre-pintada y no articulada",
+      "Producto oficial de Bandai Spirits / Banpresto",
+      "Presentación en caja original"
+    ],
+    "images": [
+      "images/products/Copy_of_Website_Image_Template9999-8136__32212.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Marca",
+        "options": [
+          {
+            "value": "Ichibansho",
+            "price": 255000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "league-battle-deck-team-rockets-mewtwo-ex-mswqss7n",
+    "name": "League Battle Deck Team Rocket's Mewtwo ex",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 105000,
+    "originalPrice": 135000,
+    "description": "El Team Rocket ha vuelto, y esta vez Mewtwo está bajo su control.\n\nPrepárate para dominar el campo de batalla con el Team Rocket's Mewtwo ex League Battle Deck, un mazo de 60 cartas listo para jugar que combina a uno de los Pokémon más icónicos de Kanto con una selección de Pokémon y Entrenadores del Team Rocket.",
+    "expansion": "Decks",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": true,
+    "encargo": true,
+    "encargoNota": "2-4 días habiles",
+    "includes": [
+      "1 mazo de 60 cartas listo para jugar",
+      "3× Team Rocket's Mewtwo ex",
+      "2× Team Rocket's Crobat ex",
+      "3× Team Rocket's Spidops",
+      "Scramble Switch, carta ACE SPEC incluida en el mazo",
+      "6 dados para contadores de daño",
+      "1 dado para lanzamiento de moneda",
+      "2 marcadores de condiciones especiales",
+      "1 Deck Box",
+      "1 caja para accesorios",
+      "1 guía de estrategia"
+    ],
+    "images": [
+      "images/products/League-Battle-Deck-Team-Rockets-Mewtwo-EX.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 105000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unova-poster-collection-black-bolt-white-flare-mswpw3b2",
+    "name": "Unova Poster Collection Black Bolt White Flare",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 110000,
+    "originalPrice": 120000,
+    "description": "🖤🤍 ¡Revive la región de Unova!\n\nRegresa a una de las regiones más queridas del mundo Pokémon con la Unova Poster Collection, una colección especial que reúne las expansiones Scarlet & Violet Black Bolt y White Flare en un solo producto",
+    "expansion": "Black Bolt & White Flare",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "1 carta promocional cosmo holo de Snivy",
+      "1 carta promocional cosmo holo de Tepig",
+      "1 carta promocional cosmo holo de Oshawott",
+      "2 sobres de Scarlet & Violet Black Bolt",
+      "2 sobres de Scarlet & Violet White Flare",
+      "1 póster de doble cara de tamaño completo"
+    ],
+    "images": [
+      "images/products/J5Ed1aMmhm9orHMOwiore4Rn3AfwpWYK3DkQqnsV.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 110000
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "cost": 80430,
+    "location": "Mi casa"
+  },
+  {
+    "id": "cynthias-garchomp-ex-premium-collection-mswotldj",
+    "name": "Cynthia's Garchomp EX Premium Collection",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 200000,
+    "originalPrice": 220000,
+    "description": "Cynthia, la legendaria Campeona de la región de Sinnoh, y su fiel Garchomp ex unen fuerzas en esta espectacular Premium Collection, perfecta para los fans de Cynthia, los coleccionistas y quienes disfrutan de los productos especiales de Pokémon TCG.",
+    "expansion": "Otros",
+    "status": "proximamente",
+    "new": true,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "1 carta promocional arte completo del Garchomp ex de Cynthia",
+      "1 carta foil de Gible de Cynthia",
+      "1 carta foil de Gabite de Cynthia",
+      "1 diorama acrílico de Cynthia, Garchomp y otros Pokémon",
+      "1 fotocalcomanía de Cynthia y Garchomp",
+      "2 sobres de Resplandor Astral",
+      "2 sobres de Rivales Predestinados",
+      "1 sobre de Origen Perdido",
+      "1 sobre de Aventuras Compartidas"
+    ],
+    "images": [
+      "images/products/Cynthia-Garchomp-EX-Premiaum-COllection-2.png.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 200000
+          }
+        ]
+      }
+    ],
+    "stock": 3
+  },
+  {
+    "id": "booster-box-mega-symphonia-msw97ouw",
+    "name": "Booster Box Mega Symphonia",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 500000,
+    "originalPrice": 510000,
+    "description": "¡El poder de Mega Gardevoir ex llega con Mega Symphonia!\n\nDescubre Mega Symphonia (M1S), una de las primeras expansiones de la nueva era Mega Evolution, directamente desde Japón.",
+    "expansion": "Japonés",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "30 sobres de Mega Symphonia (M1S)",
+      "5 cartas aleatorias por sobre"
+    ],
+    "images": [
+      "images/products/5_663892d2-8cec-4b6d-85bd-e54e12e2b48e.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Japonés",
+            "price": 500000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mabostiff-ex-showcase-box-msw92u7j",
+    "name": "Mabostiff ex Showcase Box",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 95000,
+    "originalPrice": 100000,
+    "description": "Mabosstiff puede parecer tranquilo y amigable, pero cuando se trata de proteger a sus aliados, demuestra todo su poder. Lleva a este fiel Pokémon a tu colección con la Mabosstiff ex Showcase, una colección compacta perfecta para coleccionistas y jugadores.",
+    "expansion": "Otros",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "1 carta promocional foil de Mabosstiff ex",
+      "1 sobres de Paradox Rift",
+      "1 sobres de Obsidian Flames",
+      "1 sobres de Scarlet & Violet"
+    ],
+    "images": [
+      "images/products/BOX1_0cf879d0-18e8-48c5-8c38-89c66a1ec592.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 95000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kingdra-ex-special-illustration-collection-msw8qxh3",
+    "name": "Kingdra ex Special Illustration Collection",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 220000,
+    "description": "Sumérgete en la expansión de Fábula Sombría con esta espectacular colección especial protagonizada por Kingdra ex.",
+    "expansion": "Shrouded Fable",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 carta promocional Full Art foil de Kingdra ex",
+      "1 carta foil de Horsea",
+      "1 carta foil de Seadra",
+      "5 sobres de Scarlet & Violet—Shrouded Fable"
+    ],
+    "images": [
+      "images/products/7ef0a9943ac761fda34303c0b09a79b3-sic-shrouded-fable-kingdra-ex.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 220000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pokemon-day-2026-msw8mdfg",
+    "name": "Pokemon Day 2026",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 80000,
+    "originalPrice": 90000,
+    "description": "Haz parte de una celebración histórica con la Pokémon Day 2026 Collection, una colección especial creada para conmemorar el 30.º aniversario de Pokémon.",
+    "expansion": "Otros",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "1 carta promocional foil de Pikachu con sello de Pokémon Day 2026",
+      "1 moneda metálica conmemorativa del 30.º aniversario",
+      "3 sobres de Pokémon TCG de diferentes expansiones"
+    ],
+    "images": [
+      "images/products/caja-pokemon-special-collection-30-aniversario-delantera-esp.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 80000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sleeves-verde-lima-estandar-msty4m6i",
+    "name": "Sleeves Verde Lima Estandar",
+    "category": "Accesorios",
+    "categoryId": "accesorios",
+    "price": 17000,
+    "originalPrice": 20000,
+    "description": "Mantén tu deck protegido mientras disfrutas de una experiencia de juego cómoda y fluida con los Ultra PRO Pro-Matte Deck Protector Sleeves.\n\nSu acabado mate ayuda a reducir los reflejos y proporciona una superficie suave que facilita el barajado, convirtiéndolos en una excelente opción para jugadores de Pokémon TCG, Magic: The Gathering y otros juegos de cartas de tamaño estándar.",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "50 sleeves por paquete",
+      "Tamaño estándar: 66 × 91 mm"
+    ],
+    "images": [
+      "images/products/pro-matte-standard-deck-protector-sleeves-50ct-969129.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 17000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sleeves-verde-mate-estandar-mstxxfbu",
+    "name": "Sleeves Verde Mate Estandar",
+    "category": "Accesorios",
+    "categoryId": "accesorios",
+    "price": 37000,
+    "description": "Lleva tus partidas al siguiente nivel con los Ultra PRO Pro-Matte Deck Protector Sleeves, diseñados para jugadores que buscan una combinación de protección, durabilidad y un barajado suave y consistente.\n\nSu acabado mate ayuda a reducir los reflejos durante el juego y proporciona una superficie cómoda para barajar, convirtiéndolos en una excelente opción para partidas casuales y especialmente para juego competitivo y torneos.",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "100 sleeves por paquete",
+      "Tamaño estándar: 66 × 91 mm"
+    ],
+    "images": [
+      "images/products/pro-matte-standard-deck-protector-sleeves-100ct-392347.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 37000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elite-trainer-box-pitxh-black-mstxp66c",
+    "name": "Elite Trainer Box Pitxh Black",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "pitch-black",
+    "price": 240000,
+    "originalPrice": 250000,
+    "description": "Las sombras cubren el campo de batalla mientras Mega Darkrai ex emerge de la oscuridad y Mega Zeraora ex responde con poderosos ataques eléctricos. Descubre una expansión llena de nuevas Mega Evoluciones.",
+    "expansion": "Pitch Black",
+    "status": "agotado",
+    "new": true,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "9 sobres de Mega Evolution—Pitch Black",
+      "1 carta promocional full-art foil de Zarude",
+      "65 fundas para cartas con diseño de Pitch Black",
+      "40 cartas de Energía",
+      "6 dados contadores de daño",
+      "1 moneda Pokémon",
+      "Guía del jugador de Pitch Black",
+      "Caja de colección con 6 separadores"
+    ],
+    "images": [
+      "images/products/Plantillacartas-01_1c989db4-d3b1-4441-8e8a-4221cc825b84.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 240000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "booster-bundle-perfect-order-mstxc8lq",
+    "name": "Booster Bundle Perfect Order",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "perfect-order",
+    "price": 140000,
+    "originalPrice": 150000,
+    "description": "Descubre la expansión Mega Evolution Perfect Order con este Booster Bundle, una excelente opción para coleccionistas y jugadores que quieren disfrutar de varias aperturas en un formato práctico.",
+    "expansion": "Perfect Order",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "6 sobres de Mega Evolution Perfect Order",
+      "Cada sobre contiene 10 cartas"
+    ],
+    "images": [
+      "images/products/Bundle-Perfect-Order.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 140000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "booster-box-perfect-order-mstx9453",
+    "name": "Booster Box Perfect Order",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "perfect-order",
+    "price": 730000,
+    "originalPrice": 750000,
+    "description": "Adéntrate en Mega Evolution Perfect Order, la cuarta expansión de la era Mega Evolution, donde el poder de las Mega Evoluciones se combina con nuevas estrategias, Pokémon ex y espectaculares cartas de colección.",
+    "expansion": "Perfect Order",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "36 sobres de Mega Evolution—Perfect Order",
+      "Cada sobre contiene 10 cartas"
+    ],
+    "images": [
+      "images/products/Booster-Box-Perfect-Order.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 730000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deluxe-pin-collection-ascended-heroes-mstwv27b",
+    "name": "Deluxe Pin Collection Ascended Heroes",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "ascended-heroes",
+    "price": 250000,
+    "originalPrice": 260000,
+    "description": "Esta colección reúne a los tres compañeros en cartas promocionales foil y en un increíble pin deluxe de acabado esmaltado, acompañado de 5 sobres de Ascended Heroes para descubrir nuevas cartas y poderosas Mega Evoluciones.",
+    "expansion": "Ascended Heroes",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "5 Sobres de Ascended Heroes"
+    ],
+    "images": [
+      "images/products/77ead316-0952-4b06-a9d8-9f73992b00ac-thumbnail-1000x1000.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 250000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mega-ex-box-ascended-heroes-mstrj0ax",
+    "name": "Mega ex Box Ascended Heroes",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "ascended-heroes",
+    "price": 210000,
+    "originalPrice": 215000,
+    "description": "Forja un vínculo con algunos de los Pokémon más poderosos de la expansión especial Mega Evolution Ascended Heroes con estas increíbles Mega ex Boxes.\n\nCada caja está protagonizada por una poderosa Mega Evolución y combina una carta lista para jugar, una espectacular carta sobredimensionada con efecto lenticular y 4 sobres de refuerzo para ampliar tu colección.",
+    "expansion": "Ascended Heroes",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "1 carta holográfica de Mega Meganium ex, Mega Emboar ex o Mega Feraligatr ex",
+      "1 carta sobredimensionada lenticular del mismo Pokémon",
+      "4 sobres de refuerzo de Mega Evolution Ascended Heroes"
+    ],
+    "images": [
+      "images/products/caja-tematica-heroes-ascendentes.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma - Variante",
+        "options": [
+          {
+            "value": "Inglés - Mega Meganium",
+            "price": 210000
+          },
+          {
+            "value": "Inglés - Mega Feraligatr",
+            "price": 210000
+          },
+          {
+            "value": "Inglés - Mega Emboar",
+            "price": 210000
+          },
+          {
+            "value": "Inglés - Trio ex Box",
+            "price": 600000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3-blister-mega-evolution-mstqouxv",
+    "name": "3 Blister Mega Evolution",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "mega-evolution",
+    "price": 75000,
+    "description": "Prepárate para descubrir el emocionante regreso de las Mega Evoluciones con este 3-Pack Blister de Mega Evolution, perfecto para coleccionistas y jugadores que quieren disfrutar de varias aperturas en un formato compacto.",
+    "expansion": "Mega Evolution",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "3 Sobres de Mega Evolution",
+      "1 Carta promocional"
+    ],
+    "images": [
+      "images/products/PokemonTCGMegaEvolution-Three-BoosterBlister-Golduck_EN-2292x2104-5eeab1b.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 75000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "booster-bundle-mega-evolution-mstq7a7a",
+    "name": "Booster Bundle Mega Evolution",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 140000,
+    "originalPrice": 150000,
+    "description": "Descubre el emocionante regreso de las Mega Evoluciones con el Mega Evolution Booster Bundle, una excelente opción para coleccionistas y jugadores que quieren disfrutar de varias aperturas de la expansión en un solo producto.",
+    "expansion": "Mega Evolution",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "6 Sobres de Mega Evolution"
+    ],
+    "images": [
+      "images/products/Booster-Bundle-Mega-Evolution.png.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 140000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sleeves-transparentes-mlikero-msszbztw",
+    "name": "Sleeves Transparentes Mlikero",
+    "category": "Accesorios",
+    "categoryId": "accesorios",
+    "price": 10000,
+    "description": "Mantén tus cartas protegidas del polvo, la suciedad, rayones y el desgaste del uso diario con los Sleeves Transparentes Mlikero.",
+    "expansion": "Mlikero",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "100 Unidades de protectores transparentes",
+      "Cartas de Pokémon TCG, One Piece, Magic y otros TCG",
+      "Almacenamiento y organización de colecciones"
+    ],
+    "images": [
+      "images/products/K0010.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Cantidad",
+        "options": [
+          {
+            "value": "100 Unidades",
+            "price": 10000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toploader-ultra-pro-mssyr81v",
+    "name": "Toploader Ultra Pro",
+    "category": "Accesorios",
+    "categoryId": "accesorios",
+    "price": 1200,
+    "description": "🛡️ ¡Protege tus cartas favoritas como se merecen!\n\nMantén tus cartas de colección seguras, protegidas y listas para exhibir con los Ultra PRO Toploaders, uno de los accesorios esenciales para cualquier coleccionista de TCG.",
+    "expansion": "Toploaders",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "Protector rígido de alta resistencia",
+      "Tamaño estándar 3\" × 4\"",
+      "Diseñado para cartas estándar de 2.5\" × 3.5\"",
+      "Marca Ultra PRO, referente en accesorios para coleccionistas"
+    ],
+    "images": [
+      "images/products/3-x-4-ultra-clear-platinum-toploaders-25ct-143493.webp",
+      "images/products/producto-up-regular-toploader-3x4-unidad.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Cantidad",
+        "options": [
+          {
+            "value": "Individual",
+            "price": 1200
+          },
+          {
+            "value": "Set x25 unidades",
+            "price": 25000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "booster-bundle-chaos-rising-mssyhiim",
+    "name": "Booster  Bundle Chaos Rising",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "chaos-rising",
+    "price": 140000,
+    "originalPrice": 150000,
+    "description": "Sumérgete en Mega Evolution Chaos Rising con esta Booster Bundle, una excelente opción para quienes quieren disfrutar de una apertura más completa sin llegar a una Booster Box.",
+    "expansion": "Chaos Rising",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "6 sobres de Mega Evolution Chaos Rising",
+      "Cada sobre contiene 10 cartas + 1 Energía Básica"
+    ],
+    "images": [
+      "images/products/Booster-Bundle-Chaos-Rising.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 140000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3-blister-pitch-black-mssl9apk",
+    "name": "3 Blister Pitch Black",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "pitch-black",
+    "price": 75000,
+    "description": "Una excelente opción para quienes disfrutan abrir sobres y buscan ampliar su colección mientras persiguen las Mega Evoluciones, Pokémon ex y espectaculares cartas de rareza especial que esconde Pitch Black.\n\n🌑 Tres sobres. Nuevas oportunidades. ¿Qué carta te estará esperando?",
+    "expansion": "Pitch Black",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "3 sobres de Mega Evolution Pitch Black",
+      "1 carta promocional cosmo holo"
+    ],
+    "images": [
+      "images/products/blister Pitch.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 75000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "booster-pitch-black-mssl38ti",
+    "name": "Booster Pitch Black",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "pitch-black",
+    "price": 23000,
+    "originalPrice": 25000,
+    "description": "Cada sobre es una nueva oportunidad para encontrar poderosas Mega Evoluciones, Pokémon ex, cartas de rareza especial y espectaculares Chase Cards de la expansión.",
+    "expansion": "Pitch Black",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "Cada sobre contiene 10 cartas"
+    ],
+    "images": [
+      "images/products/PitchBlackBoosterPacks_600x.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 23000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "booster-box-pitch-black-msskr5pm",
+    "name": "Booster Box Pitch Black",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 730000,
+    "originalPrice": 750000,
+    "description": "Sumérgete en la oscuridad con la Booster Box de Pitch Black, una excelente opción para coleccionistas y jugadores que buscan abrir una gran cantidad de sobres de esta esperada expansión.\n🌑 Una caja. Múltiples oportunidades. La oscuridad guarda grandes sorpresas.",
+    "expansion": "Pitch Black",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "36 sobres de Mega Evolution Pitch Black",
+      "Cada sobre contiene 10 cartas"
+    ],
+    "images": [
+      "images/products/Booster-Box-Pitch-Black.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 730000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "booster-chaos-rising-msrtcr89",
+    "name": "Booster Chaos Rising",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 23000,
+    "originalPrice": 25000,
+    "description": "Adéntrate en Mega Evolution Chaos Rising, una expansión llena de poderosas Mega Evoluciones, cartas de colección y grandes sorpresas.\n\nCada sobre contiene una selección aleatoria de cartas de la expansión, ofreciéndote la oportunidad de encontrar Pokémon ex, cartas de Entrenador, ilustraciones especiales y otras cartas de gran rareza.",
+    "expansion": "Chaos Rising",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "10 cartas de Pokémon TCG"
+    ],
+    "images": [
+      "images/products/chaos-rising-booster-box-7229224.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 23000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "booster-box-chaos-rising-36-sobres-msrt4rc1",
+    "name": "Booster Box Chaos Rising (36 sobres)",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "chaos-rising",
+    "price": 730000,
+    "originalPrice": 750000,
+    "description": "Adéntrate en Mega Evolution Chaos Rising, una expansión llena de poderosas Mega Evoluciones, nuevas estrategias y espectaculares cartas de colección.\n\nEsta Booster Box contiene 36 sobres de refuerzo, ofreciéndote una gran cantidad de oportunidades para descubrir Pokémon ex, cartas de Entrenador y algunas de las increíbles ilustraciones especiales de la expansión.",
+    "expansion": "Chaos Rising",
+    "status": "preventa",
+    "new": false,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "36 sobres de Mega Evolution Chaos Rising",
+      "Cada sobre contiene 10 cartas"
+    ],
+    "images": [
+      "images/products/Pokemon-Chaos-Rising-Booster-Box.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 730000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elite-trainer-box-chaos-rising-msrspx1f",
+    "name": "Elite Trainer Box Chaos Rising",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 240000,
+    "originalPrice": 250000,
+    "description": "Prepárate para descubrir todo lo que Mega Evolution Chaos Rising tiene para ofrecer con esta Elite Trainer Box, una de las mejores opciones para coleccionistas y jugadores que quieren disfrutar de la expansión con sobres y accesorios exclusivos.",
+    "expansion": "Chaos Rising",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "9 sobres de refuerzo de Mega Evolution Chaos Rising",
+      "1 carta promocional foil de Fennekin",
+      "65 fundas para cartas",
+      "40 cartas de Energía",
+      "6 dados contadores de daño",
+      "1 dado oficial para lanzamiento de moneda",
+      "1 moneda Pokémon",
+      "Guía del jugador de Chaos Rising",
+      "Caja de colección con 6 separadores"
+    ],
+    "images": [
+      "images/products/pokemon-chaos-rising-etb-english-sealed-2230535.webp",
+      "images/products/960.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 240000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "checklane-blister-chaos-rising-msrs6szs",
+    "name": "Checklane Blíster Chaos Rising",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 30000,
+    "description": "Este práctico Checklane Blister, es perfecto para coleccionistas y jugadores que quieran abrir un sobre de la nueva expansión y conseguir una carta promocional exclusiva del producto.",
+    "expansion": "Chaos Rising",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 carta promocional cosmo holo",
+      "1 moneda promocional de chikorita",
+      "1 sobre Chaos Rising"
+    ],
+    "images": [
+      "images/products/0bffb3ba-342b-4bfa-aa77-143ccc291e49_grande.webp",
+      "images/products/PokemonME04ChaosRisingChecklaneBlister-1.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 30000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mega-lucario-ex-league-battle-deck-msridq6n",
+    "name": "Mega Lucario ex League Battle Deck",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "mazos",
+    "price": 135000,
+    "description": "Prepárate para entrar en combate con un League Battle Deck listo para jugar, protagonizado por el poderoso Mega Lucario ex. Este mazo de 60 cartas está diseñado para ofrecer una experiencia de juego sólida desde el primer momento y, al mismo tiempo, servir como una excelente base para quienes quieran personalizar y mejorar su estrategia.",
+    "expansion": "Decks",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 mazo de 60 cartas listo para jugar",
+      "3× Mega Lucario ex",
+      "1× Fezandipiti ex",
+      "1× Bloodmoon Ursaluna ex",
+      "1× carta ACE SPEC: Secret Box",
+      "Dados para contadores de daño y dado para lanzamiento de moneda",
+      "Marcadores de condiciones especiales",
+      "Deck Box",
+      "Guía de estrategia"
+    ],
+    "images": [
+      "images/products/Mega-Lucario-ex-League-Battle-Deck.webp",
+      "images/products/pokemon-league-battle-deck-mega-lucario-ex.jpg"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 135000
+          },
+          {
+            "value": "Inglés",
+            "price": 135000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mega-venusaur-ex-premium-collection-mpfixkd6",
+    "name": "Mega Venusaur ex Premium Collection",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 190000,
+    "description": "Celebra el poder de uno de los Pokémon iniciales más icónicos con la Mega Venusaur ex Premium Collection, una edición especial que reúne contenido exclusivo para coleccionistas y jugadores del Pokémon TCG.",
+    "expansion": "Otros",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 carta promocional holográfica de Mega Venusaur ex",
+      "1 carta jumbo lenticular de Mega Venusaur ex con efecto visual especial",
+      "1 sticker reutilizable temático de Venusaur",
+      "2 sobres de Megaevolución",
+      "2 sobres de Rivales Predestinados",
+      "4 Sobres de Aventuras Compartidas"
+    ],
+    "images": [
+      "images/products/MVenusaur ex.webp",
+      "images/products/MVenusaur Sobre.webp",
+      "images/products/Cards MVenusaur.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 160000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deluxe-battle-deck---miraidon-ex-mpfikz2y",
+    "name": "Deluxe Battle Deck - Miraidon EX",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 80000,
+    "originalPrice": 100000,
+    "description": "Lleva la velocidad y el poder del futuro al combate con el Deluxe Battle Deck de Miraidon ex, un mazo preconstruido de nivel intermedio diseñado para jugadores que buscan una experiencia más competitiva y estratégica. Este deck está protagonizado por Miraidon ex, acompañado por Iron Valiant ex, creando una combinación enfocada en ataques rápidos y presión constante en el campo de batalla.",
+    "expansion": "Decks",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": true,
+    "encargo": true,
+    "encargoNota": "2-4 días habiles",
+    "includes": [
+      "1 mazo listo para jugar de 60 cartas",
+      "1 set de contadores de daño",
+      "1 moneda metálica coleccionable",
+      "1 tapete de juego individual",
+      "1 caja para mazo",
+      "1 hoja de estrategias"
+    ],
+    "images": [
+      "images/products/Deluxe_Battle_Deck_Miraidon.webp",
+      "images/products/Deluxe_Battle_Deck_Miraidon_ex_Cards.webp",
+      "images/products/Deluxe_Battle_Deck_Miraidon_ex_Contents.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 80000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "booster-scarlet-violet-mpfia4ba",
+    "name": "Booster Scarlet & Violet",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 23000,
+    "description": "Comienza una nueva aventura en la región de Paldea con Scarlet & Violet – Base Set, la expansión que marca el inicio de una nueva era en el Pokémon TCG. Con la llegada de los Pokémon ex, esta colección introduce a los iniciales Sprigatito, Fuecoco y Quaxly, además de los legendarios Koraidon ex y Miraidon ex como protagonistas del set.",
+    "expansion": "Scarlet & Violet",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 sobre Scarlet & Violet",
+      "10 cartas con probabilidad de artes secretos"
+    ],
+    "images": [
+      "images/products/Scarlet&Violet Booster.webp",
+      "images/products/Chase Scarlet & Violet.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 23000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "booster-obsidian-flames-mpfhxm3a",
+    "name": "Booster Obsidian Flames",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 23000,
+    "description": "Esta colección está protagonizada por el imponente Charizard ex Teracristal de tipo Oscuro, una de las cartas más buscadas de la era Scarlet & Violet, acompañado por nuevos Pokémon ex y cartas con ilustraciones especiales.",
+    "expansion": "Obsidian Flames",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 sobre Obsidian Flames",
+      "10 cartas con probabilidad de artes secretos"
+    ],
+    "images": [
+      "images/products/Booster Obsidian.webp",
+      "images/products/Chase Obsidian.avif"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 23000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mega-zygarde-ex-premium-collection-mpdmzv5z",
+    "name": "Mega Zygarde ex Premium Collection",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 175000,
+    "description": "Desata el poder del Pokémon legendario del equilibrio con la Mega Zygarde ex Premium Collection, una caja especial diseñada para jugadores y coleccionistas que buscan contenido exclusivo y una presentación premium.",
+    "expansion": "Perfect Order",
+    "status": "agotado",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 carta promocional holográfica Mega Zygarde ex",
+      "1 carta jumbo lenticular Mega Zygarde ex",
+      "1 tech sticker exclusivo de Mega Zygarde ex",
+      "5 sobres de Perfect Order",
+      "2 sobres de Phantasmal Flames",
+      "1 sobre de Journey Together"
+    ],
+    "images": [
+      "images/products/Mega Zygarde ex Premium Collection.png",
+      "images/products/Jumbo Zygarde.png",
+      "images/products/sobres zygarde.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 175000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "booster-perfect-order-mpdmitob",
+    "name": "Booster Perfect Order",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 23000,
+    "originalPrice": 25000,
+    "description": "Descubre una nueva era del Pokémon TCG con Perfect Order, la tercera expansión principal de la serie Mega Evolution, inspirada en el universo de Pokémon Legends: Z-A.",
+    "expansion": "Perfect Order",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 sobre Perfect Order",
+      "10 cartas con probabilidad de artes secretos"
+    ],
+    "images": [
+      "images/products/Booster Perfect Order.webp",
+      "images/products/Chase Perfect Order.avif"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 23000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "booster-paradox-rift-mpdmc8pv",
+    "name": "Booster Paradox Rift",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 22000,
+    "description": "Explora las anomalías del Área Cero y descubre una expansión donde el pasado y el futuro chocan en una misma colección con Pokémon TCG: Scarlet & Violet – Paradox Rift.",
+    "expansion": "Paradox Rift",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 sobre Paradox Rift",
+      "10 cartas con probabilidad de artes secretos"
+    ],
+    "images": [
+      "images/products/Booster Paradox Rift.webp",
+      "images/products/Chase Paradox.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 22000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "funko-pop-nico-robin-egghead-2137-mpdls3kz",
+    "name": "Funko Pop! Nico Robin Egghead #2137",
+    "category": "Funko Pop!",
+    "categoryId": "funko",
+    "price": 45000,
+    "originalPrice": 50000,
+    "description": "Lleva a tu colección a la brillante arqueóloga de los Sombrero de Paja con este Funko Pop! de Nico Robin, inspirado en su aparición durante el Arco de Egghead (Egghead Island) de One Piece.",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": true,
+    "encargo": false,
+    "images": [
+      "images/products/Robin.webp",
+      "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwbc9181c0/images/funko/upload/1/86520_OP_S12_NicoRobin_POP_GLAM-1-WEB.png?sw=800&sh=800"
+    ],
+    "attributes": [
+      {
+        "name": "Versión",
+        "options": [
+          {
+            "value": "Estandar",
+            "price": 45000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "funko-pop-bertholdt-hoover-aot-s3-1167-mpdl349g",
+    "name": "Funko Pop! Bertholdt Hoover AOT S3 #1167",
+    "category": "Funko Pop!",
+    "categoryId": "funko",
+    "price": 25000,
+    "originalPrice": 40000,
+    "description": "Añade a tu colección uno de los personajes más recordados de Attack on Titan con este Funko Pop! de Bertholdt Hoover, integrante del Cuerpo de Entrenamiento y figura clave dentro de la historia de Shingeki no Kyojin.",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": true,
+    "encargo": true,
+    "encargoNota": "3-5 días hábiles",
+    "images": [
+      "https://i5.walmartimages.com/asr/b53f55c5-eab6-4828-9690-e7e897eab770.8d0495811ddf55d6095993eb861212c3.png?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+    ],
+    "attributes": [
+      {
+        "name": "Versión",
+        "options": [
+          {
+            "value": "Estandar",
+            "price": 25000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "funko-popsuper-saiyan-goku-948-mpdkvfdn",
+    "name": "Funko Pop!Super Saiyan Goku #948",
+    "category": "Funko Pop!",
+    "categoryId": "funko",
+    "price": 55000,
+    "description": "Lleva el poder de los Saiyajin a tu colección con este increíble Funko Pop! de Goku Super Saiyan, inspirado en Dragon Ball Z. Esta figura muestra a Goku en plena preparación de su icónico Kamehameha",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "https://i.ebayimg.com/images/g/czkAAeSwAU9p~fm3/s-l1200.png",
+      "https://realpopmania.com/cdn/shop/products/1_b56d8516-ef68-422a-8551-b89f16d528aa.png?v=1668005726"
+    ]
+  },
+  {
+    "id": "Mega-Latias-Box",
+    "name": "Mega Latias EX Box",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 105000,
+    "description": "¡La Megaevolución eleva el poder del Pokémon Legendario Latias más allá de sus propios límites!",
+    "expansion": "Otros",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 sobre Scarlet & Violet",
+      "1 carta promocional holográfica Mega Latias EX",
+      "1 código para Pokémon TCG Live",
+      "1 separador de colección"
+    ],
+    "images": [
+      "https://cdn11.bigcommerce.com/s-ua4dd/images/stencil/original/products/329312/457924/Copy_of_Website_Image_Template9999-8285__43072.1759498498.png",
+      "https://www.mentastore.com/cdn/shop/files/pokemon-mega-evolution-mega-latias-ex-box-mentastore-9245071.png?v=1762833655"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 105000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Kingambit-Collection",
+    "name": "Shrouded Fable Kingambit Collection",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 100000,
+    "description": "¡Kingambit se impone a cualquiera que lo desafíe, erigiéndose como líder de su propio ejército! Gracias a esta noble colección, podrás incorporar al Pokémon Gran Espada a tu equipo con una carta de promoción de estilo similar al de la rareza Rara Ilustración, junto con Pawniard y Bisharp en forma de cartas holográficas",
+    "expansion": "Shrouded Fable",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 carta promocional Illustration Rare de Kingambit",
+      "2 carta promocional holográfica: Pawniard y Bisharp",
+      "4 paquetes de mejora de Shrouded Fable"
+    ],
+    "images": [
+      "images/products/Kingambit1.jpg",
+      "images/products/Kingambit2.jpg",
+      "images/products/Kingambit3.jpg"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 100000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Sleeves-Pikachu",
+    "name": "Sleeves Pikachu - 65 unidades",
+    "category": "Pokémon TCG",
+    "categoryId": "accesorios",
+    "expansion": "otros",
+    "price": 45000,
+    "images": [
+      "images/products/Sleeves_Pikachu.png"
+    ],
+    "description": "Protege tu mazo con la calidad estándar de la industria. Estos sleeves oficiales de Ultra Pro presentan un diseño vibrante de Pikachu, ofreciendo una alta durabilidad, protección contra el desgaste y un barajado suave.",
+    "includes": [
+      "65 Sleeves rigidos Ultra Pro"
+    ],
+    "bestSeller": false,
+    "new": true
+  },
+  {
+    "id": "Booster-Tempestad",
+    "name": "Booster Tempestad Plateada",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 22000,
+    "description": "El booster de Tempestad Plateada desata una energía imparable con cartas poderosas y diseños impresionantes.",
+    "expansion": "Boosters",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 sobre Tempestad Plateada",
+      "10 cartas con probabilidad de artes secretos"
+    ],
+    "images": [
+      "images/products/tempestad-plateada-booster.png",
+      "images/products/Silver_Tempest_Chase_cards.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 22000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Pokeball-Tin-2025",
+    "name": "Pokeball Tin Q4 2025",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 73000,
+    "description": "¿Qué hay dentro de una Poké Ball? ¡La respuesta son las cartas TCG de Pokémon, por supuesto!",
+    "expansion": "Otros",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "2 hojas de pagatinas",
+      "1 sobre de Surging Sparks",
+      "1 sobre de Journey Together",
+      "1 sobre de Destined Rivals"
+    ],
+    "images": [
+      "images/products/Pokeball Tin.jpg",
+      "images/products/pokeball_boosters_2025x.jpg"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 73000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Funko-Charmander",
+    "name": "Funko Charmander Soft #455",
+    "category": "Funko Pop!",
+    "categoryId": "funko",
+    "price": 50000,
+    "description": "¡Tu sueño de convertirte en Entrenador no está fuera de tu alcance! ¡Atrapa a este Charmander!",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/products/Funko_20Pop_20Charmander_20Soft_20455_201.png"
+    ],
+    "attributes": [
+      {
+        "name": "Versión",
+        "options": [
+          {
+            "value": "Soft Color",
+            "price": 50000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Sleeved-Phantasmal",
+    "name": "Sleeved Booster Phantasmal Flames",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 23000,
+    "description": "¡Enciende tu colección con Phantasmal Flames! Este sobre sellado viene protegido en sleeve, ideal para coleccionistas y jugadores que buscan cartas poderosas y diseños espectrales.",
+    "expansion": "Phantasmal Flames",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 sobre de Phantasmal Flames",
+      "10 cartas con probabilidad de artes secretos"
+    ],
+    "images": [
+      "images/products/Sleeved Phantasmal.webp",
+      "images/products/Chase Card Phantasmal.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 23000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Mimikyu-EX",
+    "name": "Mimikyu EX Box",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 95000,
+    "description": "Misteriosos poderes y estrategias sobrenaturales se entremezclan tras la aparición del adorable y terrorífico Mimikyu.",
+    "expansion": "otros",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 carta holográfica de promoción de Mimikyu ex",
+      "1 carta holográfica de Greavard",
+      "1 carta holográfica jumbo de Mimikyu ex",
+      "2 sobres de Tempestad Plateada",
+      "1 sobre de Astros Brillantes",
+      "1 sobre de Cielos Evolutivos"
+    ],
+    "images": [
+      "images/products/Mimikyu_sobres-removebg-preview.png",
+      "images/products/Cartas Mimikyu.webp",
+      "images/products/Mimikyu.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 95000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Booster-ToT-2024",
+    "name": "Booster Trick or Trade (2024)",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 5000,
+    "description": "¡Sorpresas espeluznantes acechan en el interior! ¡Comparte la diversión y la emoción de Pokémon en la noche más espeluznante del año con BOOster!",
+    "expansion": "Boosters",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 sobre de Trick or Trade",
+      "3 cartas con probabilidad de holografico cosmo"
+    ],
+    "images": [
+      "images/products/PokemonTCGTrickorTradeBOOsterBundlePacks.webp",
+      "images/products/pokemon-trick-or-trade-booster.png"
+    ],
+    "attributes": [
+      {
+        "name": "Variantes",
+        "options": [
+          {
+            "value": "Booster",
+            "price": 5000
+          },
+          {
+            "value": "Bundle x35",
+            "price": 160000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Deck-Miraidon",
+    "name": "Deluxe Battle Deck - Koraidon EX",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "mazos",
+    "price": 80000,
+    "originalPrice": 90000,
+    "description": "¡Los poderosos Pokémon ex están listos para cargar en el campo de batalla en Pokémon TCG",
+    "expansion": "Decks",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": true,
+    "encargo": true,
+    "encargoNota": "2-4 días habiles",
+    "includes": [
+      "1 baraja de 60 cartas lista para jugar",
+      "3 tapete de juego para un solo jugador",
+      "1 juego de contadores de daños",
+      "1 moneda metálica grande",
+      "2 marcadores de condición",
+      "1 carta de código para jugar a este mazo en línea"
+    ],
+    "images": [
+      "images/products/Deluxe_Battle_Deck_Koraidon_ex_600x.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 80000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Blister-Shrouded-Fable",
+    "name": "Blister Fabula Sombría",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 56000,
+    "originalPrice": 60000,
+    "description": "Explora una nueva comarca del mundo Pokémon a través de las cartas protagonizadas por los Pokémon, los habitantes y los lugares más emblemáticos de Noroteo.",
+    "expansion": "Shrouded Fable",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 carta promociolnal holográfica de Pecharunt",
+      "3 sobres de fabula sombria"
+    ],
+    "images": [
+      "images/products/Blister-Fabula-Sombria.webp",
+      "images/products/Blister FS.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 56000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Sleeved-Journey",
+    "name": "Sleveed Booster Journey Together",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 23000,
+    "description": "Recuerda tus viajes y encuentros pasados con entrenadores de todo el mundo Pokémon y míralos reunirse con sus socios más emblemáticos en la galería de cartas.",
+    "expansion": "Journey Together",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 sobre de Journey Together",
+      "10 cartas con probabilidad de artes secretos"
+    ],
+    "images": [
+      "images/products/Sleeved Journey.webp",
+      "images/products/Chase Card Journey.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 23000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Tech-Ascended",
+    "name": "Tech Sticker Collection Ascended Heroes",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "ascended-heroes",
+    "price": 70000,
+    "originalPrice": 80000,
+    "description": "Mega evoluciona tu juego de pegatinas! Pokémon de la región de Kanto están ascendiendo a la grandeza, tanto como tarjetas promocionales como stickers.",
+    "expansion": "Ascended Heroes",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "1 carta promocional holográgica de Gastly o Charmander",
+      "1 hoja de stickers",
+      "3 sobres de Heroes Ascendidos"
+    ],
+    "images": [
+      "images/products/Ascended-Heroes-Tech-Sticker-Collection.png.webp",
+      "images/products/Gastly.png",
+      "images/products/Charmander.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 70000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Funko-Nobara",
+    "name": "Funko Nobara (Painting) #1647",
+    "category": "Funko Pop!",
+    "categoryId": "funko",
+    "price": 35000,
+    "originalPrice": 45000,
+    "description": "¡Enfréntate a espíritus malditos con un estilo colorido! ¡Únete a Nobara Kugisaki mientras salta por el aire, empuñando una lata de pintura y pinceles!",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": true,
+    "encargo": false,
+    "images": [
+      "images/products/Funko_20Pop_20Nobara_20Kugisaki_201647_201.png"
+    ],
+    "attributes": [
+      {
+        "name": "Versión",
+        "options": [
+          {
+            "value": "Estandar",
+            "price": 35000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Tin-Charizard",
+    "name": "Tin Mega Charizard",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 115000,
+    "description": "En las condiciones adecuadas ¡Charizard puede superar sus propios límites y Mega Evolucionar! Con esta lata, puedes elegir las furiosas llamas azules de Mega Charizard X ex o la agilidad aérea de Mega Charizard Y ex.",
+    "expansion": "Phantasmal Flames",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "1 carta promocional holográgica de Mega Charizar X o Mega Charizard Y",
+      "1 sobre de Destined Rivals",
+      "1 sobre de Megaevolution",
+      "2 sobres de Phantasmal Flames"
+    ],
+    "images": [
+      "images/products/lata-mega-charizard-x-y-ex-cartas-pokemon-tcg-cardzone.webp",
+      "images/products/P11430-PIGs_Mega_Charizard_Tins_Booster_Spread_INT_EN-1837x2074-516bde5.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Variantes",
+        "options": [
+          {
+            "value": "Tin en ingles Mega Charizard X",
+            "price": 115000
+          },
+          {
+            "value": "Tin en ingles Mega Charizard Y",
+            "price": 115000
+          },
+          {
+            "value": "Combo ingles Mega Charizard X & Y",
+            "price": 220000,
+            "originalPrice": 230000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Tin-Ferrodada",
+    "name": "Tin Ferrodada Destinos de Paldea",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 110000,
+    "originalPrice": 120000,
+    "description": "Los ex Pokémon shinys están aquí para robar el protagonismo ¡mira su impresionante poder mientras trascienden los límites del tiempo y el tipo!.",
+    "expansion": "Paldean Fates",
+    "status": "agotado",
+    "new": false,
+    "bestSeller": true,
+    "encargo": false,
+    "includes": [
+      "1 carta promocional full art de Ferrodada",
+      "4 sobres de Destinos de Paldea"
+    ],
+    "images": [
+      "images/products/Tin Ferrodada.jpg",
+      "images/products/Pokemon_Scarlet_Violet_Paldean_Fates_set_chase_cards.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 110000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Bundle-Phantasmal",
+    "name": "Booster Bundle Phantasmal Flames",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "price": 210000,
+    "description": "Envuelto en el ardor de sus llamas azules, Mega-Charizard X ex atraviesa un oscuro campo de combate y levanta vuelo para acechar a sus rivales desde lo más alto.",
+    "expansion": "Phantasmal Flames",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "6 sobres de Phantasmal Flames"
+    ],
+    "images": [
+      "images/products/Bundle-Phantasmal-Flames.png.webp",
+      "images/products/Phantasmal_Flames_Booster_Bundle_2.webp",
+      "images/products/Chase Card Phantasmal.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 210000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Maximo-Metagross",
+    "name": "Maximo Metagross ex - ASC-289/217",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "ilustraciones_raras",
+    "price": 290000,
+    "originalPrice": 310000,
+    "description": "Carta 289/217 del Metagross de Maximo en Español, perfecto estado (Near Mint)",
+    "expansion": "Ascended Heroes",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": true,
+    "encargo": false,
+    "images": [
+      "https://www.cardtrader.com/uploads/blueprints/image/370926/show_steven-s-metagross-ex-special-illustration-rare-289-217-ascended-heroes.jpg"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 290000,
+            "originalPrice": 310000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Latios-Paradox",
+    "name": "Latios - PAR-073/182",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "cartas_estandar",
+    "price": 500,
+    "description": "Carta 073/182 de Latios de la expansión Paradox Rift en inglés.",
+    "expansion": "Paradox Rift",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "https://tcgplayer-cdn.tcgplayer.com/product/523727_in_1000x1000.jpg"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 500
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "label": "🎲 CÓMO JUGAR",
+    "title": "GUÍAS DE NUESTROS JUEGOS DE MESA",
+    "subtitle": "Antes de comprar (o antes de tu próxima noche de juegos), aprende las reglas paso a paso. Vamos sumando más juegos y videos con el tiempo."
+  },
+  "games": [
+    {
+      "id": "polilla-tramposa",
+      "name": "La Polilla Tramposa",
+      "tagline": "El único juego donde hacer trampa no solo está permitido: es obligatorio.",
+      "players": "2 a 5 jugadores",
+      "duration": "15-20 min",
+      "age": "7+",
+      "image": "images/products/placeholder.jpg",
+      "youtubeId": "xe3-rM_mYqM",
+      "description": "Creado por Emily y Lukas Brand, ganador del Deutscher Spielepreis al mejor juego infantil. El objetivo es deshacerte de todas tus cartas antes que los demás, pero algunas —las polillas tramposas— no se pueden descartar de forma normal. Tendrás que hacer trampa para quitártelas de encima sin que te atrape el Chinche Guardián.",
+      "steps": [
+        {
+          "title": "Reparto inicial",
+          "text": "Cada jugador recibe 8 cartas en su mano. El resto del mazo se coloca boca abajo en el centro, y se voltea la primera carta para formar la pila de descarte."
+        },
+        {
+          "title": "En tu turno",
+          "text": "Debes colocar sobre la pila de descarte una carta con el número inmediatamente superior o inferior al de la carta visible. Si no tienes ninguna carta que te sirva, robas una del mazo y pasa el turno al siguiente jugador."
+        },
+        {
+          "title": "Cartas de acción",
+          "text": "Además de las cartas numéricas hay 4 tipos de cartas de acción con efectos especiales: puedes hacer que otro jugador robe cartas extra, deshacerte de una carta duplicada, o pasarle una carta a otro jugador. Se juegan igual que una carta normal, pero al colocarlas se resuelve su efecto antes de pasar el turno."
+        },
+        {
+          "title": "El Chinche Guardián",
+          "text": "En cada ronda, uno de los jugadores es el Chinche Guardián. Es el único que puede jugar cartas de polilla de forma normal, y su trabajo es estar atento para atrapar a quien intente hacer trampa."
+        },
+        {
+          "title": "Cómo hacer trampa (sí, es parte de las reglas)",
+          "text": "Mientras no seas el Chinche Guardián, puedes deshacerte de tus cartas de polilla escondiéndolas, dejándolas caer o pasándolas disimuladamente. Reglas para hacer trampa: tu mano siempre debe estar visible sobre la mesa, solo puedes deshacerte de una carta a la vez, y mientras se discute si alguien hizo trampa, nadie más puede intentarlo. Si el Chinche te atrapa, devuelves la carta a tu mano y te conviertes en el nuevo Chinche Guardián."
+        },
+        {
+          "title": "Fin de la ronda y puntuación",
+          "text": "La ronda termina cuando un jugador se queda sin cartas en la mano. Todos los demás restan puntos según las cartas que les quedaron. Se juegan tantas rondas como jugadores haya, así todos pasan por el rol de Chinche Guardián al menos una vez. ¡Gana quien menos puntos en contra tenga al final!"
+        }
+      ]
+    }
+  ]
+}

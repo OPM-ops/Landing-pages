@@ -1,0 +1,295 @@
+[
+  {
+    "id": "pokemon",
+    "name": "Pokémon TCG",
+    "menuStyle": "grid",
+    "subcategories": [
+      {
+        "id": "evolving-skies",
+        "name": "Evolving Skies",
+        "filterType": "subcategoryId",
+        "filterValue": "evolving-skies",
+        "image": "images/expansiones/Evolving_Skies.webp"
+      },
+      {
+        "id": "expansion_sv",
+        "name": "Scarlet & Violet",
+        "filterType": "expansion",
+        "filterValue": "Scarlet & Violet",
+        "image": "images/expansiones/ptcg-sc1-logo.webp"
+      },
+      {
+        "id": "expansion_paldean_fates",
+        "name": "Paldean Fates",
+        "filterType": "expansion",
+        "filterValue": "Paldean Fates",
+        "image": "images/expansiones/sv045_logo_169_en.png"
+      },
+      {
+        "id": "expansion_temporal_forces",
+        "name": "Temporal Forces",
+        "filterType": "expansion",
+        "filterValue": "Temporal Forces",
+        "image": "images/expansiones/images.png"
+      },
+      {
+        "id": "shrouded-fable",
+        "name": "Shrouded Fable",
+        "filterType": "expansion",
+        "filterValue": "Shrouded Fable",
+        "image": "images/expansiones/sv6pt5-logo.png"
+      },
+      {
+        "id": "black-bolt-white-flare",
+        "name": "Black Bolt & White Flare",
+        "filterType": "expansion",
+        "filterValue": "Black Bolt & White Flare",
+        "image": "images/expansiones/Pokemon_TCG_Scarlet_Violet—Black_Bolt_and_Scarlet_Violet—White_Flare_Logo.webp"
+      },
+      {
+        "id": "mega-evolution",
+        "name": "Mega Evolution",
+        "filterType": "expansion",
+        "filterValue": "Mega Evolution",
+        "image": "images/expansiones/640px-Logo_Megaevolución_(TCG).png"
+      },
+      {
+        "id": "phantasmal-flames",
+        "name": "Phantasmal Flames",
+        "filterType": "expansion",
+        "filterValue": "Phantasmal Flames",
+        "image": "images/expansiones/0011-126586120535126987.webp"
+      },
+      {
+        "id": "ascended-heroes",
+        "name": "Ascended Heroes",
+        "filterType": "expansion",
+        "filterValue": "Ascended Heroes",
+        "image": "images/expansiones/Logo-Ascended-Heroes.png.webp"
+      },
+      {
+        "id": "perfect-order",
+        "name": "Perfect Order",
+        "filterType": "expansion",
+        "filterValue": "Perfect Order",
+        "image": "images/expansiones/me03-logo.png"
+      },
+      {
+        "id": "chaos-rising",
+        "name": "Chaos Rising",
+        "filterType": "expansion",
+        "filterValue": "Chaos Rising",
+        "image": "images/expansiones/CHAOS_RISING_LOGO.webp"
+      },
+      {
+        "id": "pitch-black",
+        "name": "Pitch Black",
+        "filterType": "expansion",
+        "filterValue": "Pitch Black",
+        "image": "images/expansiones/me05.png"
+      },
+      {
+        "id": "30th-celebration",
+        "name": "30th Celebration",
+        "filterType": "expansion",
+        "filterValue": "30th aniversario",
+        "image": "images/expansiones/P11221-30th_Logo_EN_CMYK_GLOSS_WP-7117x3926-b3babf6.webp"
+      },
+      {
+        "id": "delta-reign",
+        "name": "Delta Reign",
+        "filterType": "expansion",
+        "filterValue": "Delta Reign",
+        "image": "images/expansiones/P11222_ME06_Logo_EN-3757x1799-9dc7257.webp"
+      },
+      {
+        "id": "mazos",
+        "name": "Mazos",
+        "filterType": "expansion",
+        "filterValue": "Decks"
+      },
+      {
+        "id": "otros-productos",
+        "name": "Otros Productos",
+        "filterType": "expansion",
+        "filterValue": "Otros"
+      }
+    ]
+  },
+  {
+    "id": "tcg",
+    "name": "TCG",
+    "subcategories": [
+      {
+        "id": "magic",
+        "name": "Magic: The Gathering",
+        "categoryId": "magic"
+      },
+      {
+        "id": "naruto-mythos",
+        "name": "Naruto Mythos",
+        "categoryId": "naruto-mythos"
+      },
+      {
+        "id": "yugioh",
+        "name": "Yu-Gi-Oh!",
+        "categoryId": "yugioh"
+      },
+      {
+        "id": "accesorios-link",
+        "name": "Accesorios",
+        "categoryId": "accesorios"
+      }
+    ]
+  },
+  {
+    "id": "funko",
+    "name": "Funko Pop!",
+    "hideFromNav": true
+  },
+  {
+    "id": "figuras",
+    "name": "Figuras",
+    "subcategories": [
+      {
+        "id": "ichibansho",
+        "name": "Ichibansho",
+        "filterType": "subcategoryId",
+        "filterValue": "ichibansho"
+      },
+      {
+        "id": "model-kits",
+        "name": "Model Kits",
+        "filterType": "subcategoryId",
+        "filterValue": "model-kits"
+      },
+      {
+        "id": "funko-link",
+        "name": "Funko Pop!",
+        "categoryId": "funko"
+      }
+    ]
+  },
+  {
+    "id": "cartas",
+    "name": "Cartas",
+    "subcategories": [
+      {
+        "id": "cartas_estandar",
+        "name": "Cartas Estándar",
+        "filterType": "subcategoryId",
+        "filterValue": "cartas_estandar"
+      },
+      {
+        "id": "ilustraciones_raras",
+        "name": "Ilustraciones Raras",
+        "filterType": "subcategoryId",
+        "filterValue": "ilustraciones_raras"
+      },
+      {
+        "id": "cartas-ex",
+        "name": "Cartas ex",
+        "filterType": "subcategoryId",
+        "filterValue": "cartas-ex"
+      }
+    ],
+    "menuStyle": "grid-tiered",
+    "eras": [
+      {
+        "name": "Scarlet & Violet",
+        "expansions": [
+          {
+            "id": "expansion_sv",
+            "name": "Scarlet & Violet",
+            "filterType": "expansion",
+            "filterValue": "Scarlet & Violet",
+            "image": "images/expansiones/ptcg-sc1-logo.webp"
+          },
+          {
+            "id": "expansion_paldean_fates",
+            "name": "Paldean Fates",
+            "filterType": "expansion",
+            "filterValue": "Paldean Fates",
+            "image": "images/expansiones/sv045_logo_169_en.png"
+          },
+          {
+            "id": "expansion_temporal_forces",
+            "name": "Temporal Forces",
+            "filterType": "expansion",
+            "filterValue": "Temporal Forces",
+            "image": "images/expansiones/images.png"
+          },
+          {
+            "id": "shrouded-fable",
+            "name": "Shrouded Fable",
+            "filterType": "expansion",
+            "filterValue": "Shrouded Fable",
+            "image": "images/expansiones/sv6pt5-logo.png"
+          },
+          {
+            "id": "black-bolt-white-flare",
+            "name": "Black Bolt & White Flare",
+            "filterType": "expansion",
+            "filterValue": "Black Bolt & White Flare",
+            "image": "images/expansiones/Pokemon_TCG_Scarlet_Violet—Black_Bolt_and_Scarlet_Violet—White_Flare_Logo.webp"
+          },
+          {
+            "id": "mega-evolution",
+            "name": "Mega Evolution",
+            "filterType": "expansion",
+            "filterValue": "Mega Evolution",
+            "image": "images/expansiones/640px-Logo_Megaevolución_(TCG).png"
+          },
+          {
+            "id": "phantasmal-flames",
+            "name": "Phantasmal Flames",
+            "filterType": "expansion",
+            "filterValue": "Phantasmal Flames",
+            "image": "images/expansiones/0011-126586120535126987.webp"
+          },
+          {
+            "id": "ascended-heroes",
+            "name": "Ascended Heroes",
+            "filterType": "expansion",
+            "filterValue": "Ascended Heroes",
+            "image": "images/expansiones/Logo-Ascended-Heroes.png.webp"
+          },
+          {
+            "id": "perfect-order",
+            "name": "Perfect Order",
+            "filterType": "expansion",
+            "filterValue": "Perfect Order",
+            "image": "images/expansiones/me03-logo.png"
+          },
+          {
+            "id": "chaos-rising",
+            "name": "Chaos Rising",
+            "filterType": "expansion",
+            "filterValue": "Chaos Rising",
+            "image": "images/expansiones/CHAOS_RISING_LOGO.webp"
+          },
+          {
+            "id": "pitch-black",
+            "name": "Pitch Black",
+            "filterType": "expansion",
+            "filterValue": "Pitch Black",
+            "image": "images/expansiones/me05.png"
+          }
+        ]
+      },
+      {
+        "name": "Sword & Shield",
+        "expansions": []
+      }
+    ]
+  },
+  {
+    "id": "accesorios",
+    "name": "Accesorios",
+    "hideFromNav": true
+  },
+  {
+    "id": "juegos-mesa",
+    "name": "Juegos de Mesa"
+  }
+]
