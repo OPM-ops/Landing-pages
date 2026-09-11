@@ -381,9 +381,16 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /* Botones minimalistas: solo ícono, con tooltip nativo (title). Para Inicio/Todos/Ofertas/Novedades/Encargo */
-.nav-icon-btn {
-  padding: 0 0.7rem !important;
-  font-size: 0.85rem !important;
+/* Este padding compacto (sin espacio vertical) es para el ícono chico de la
+   barra horizontal de escritorio. Sin este @media, también se aplicaba en
+   el menú móvil y hacía que estas 4 filas (Todos/Ofertas/Novedades/Encargo)
+   se vieran más bajitas que el resto de filas del menú (Aprende, Pokémon
+   TCG, etc.), que sí usan el padding normal de fila completa. */
+@media (min-width: 769px) {
+  .nav-icon-btn {
+    padding: 0 0.7rem !important;
+    font-size: 0.85rem !important;
+  }
 }
 
 
@@ -2591,17 +2598,6 @@ h1, h2, h3, h4, h5, h6,
     justify-content: center;
   }
 }
-
-/* ==============================================
-   DROPDOWN – REDESIGN
-   ============================================== */
-.dropdown {
-  position: relative;   /* ← ESTA LÍNEA DEBE ESTAR AQUÍ, NO DENTRO DE MEDIA QUERY */
-  display: inline-flex;
-  align-items: stretch;
-  height: 100%;
-}
-/* … resto del código … */
 
 @media (max-width: 480px) {
   .cart-icon {

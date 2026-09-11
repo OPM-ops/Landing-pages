@@ -7,8 +7,8 @@
       {
         "id": "evolving-skies",
         "name": "Evolving Skies",
-        "filterType": "subcategoryId",
-        "filterValue": "evolving-skies",
+        "filterType": "expansion",
+        "filterValue": "Evolving Skies",
         "image": "images/expansiones/Evolving_Skies.webp"
       },
       {
@@ -269,32 +269,31 @@
           {
             "id": "paldea-evolved",
             "name": "Paldea Evolved",
-            "filterType": "subcategoryId",
+            "filterType": "expansion",
             "filterValue": "Paldea Evolved",
             "image": "images/expansiones/sv02-header-logo.png"
           },
           {
             "id": "obsidian-flames",
             "name": "Obsidian Flames",
-            "filterType": "subcategoryId",
+            "filterType": "expansion",
             "filterValue": "Obsidian Flames",
             "image": "images/expansiones/sv03-header-logo.png"
           },
           {
             "id": "151",
             "name": "151",
-            "filterType": "subcategoryId",
+            "filterType": "expansion",
             "filterValue": "151",
             "image": "images/expansiones/sv035_logo_169_en.png"
           },
           {
             "id": "paradox-rift",
             "name": "Paradox Rift",
-            "filterType": "subcategoryId",
+            "filterType": "expansion",
             "filterValue": "Paradox Rift",
             "image": "images/expansiones/sv04-logo-cmyk.png"
           },
-
           {
             "id": "expansion_paldean_fates",
             "name": "Paldean Fates",
@@ -312,11 +311,10 @@
           {
             "id": "twilight-masquerade",
             "name": "Twilight Masquerade",
-            "filterType": "subcategoryId",
+            "filterType": "expansion",
             "filterValue": "Twilight Masquerade",
             "image": "images/expansiones/sv06_logo_169_en.png"
           },
-
           {
             "id": "shrouded-fable",
             "name": "Shrouded Fable",
@@ -327,35 +325,35 @@
           {
             "id": "stellar-crown",
             "name": "Stellar Crown",
-            "filterType": "subcategoryId",
+            "filterType": "expansion",
             "filterValue": "Stellar Crown",
             "image": "images/expansiones/sv7-logo.png"
           },
           {
             "id": "surging-sparks",
             "name": "Surging Sparks",
-            "filterType": "subcategoryId",
+            "filterType": "expansion",
             "filterValue": "Surging Sparks",
             "image": "images/expansiones/sv8-logo.png"
           },
           {
             "id": "prismatic-evolutions",
             "name": "Prismatic Evolutions",
-            "filterType": "subcategoryId",
+            "filterType": "expansion",
             "filterValue": "Prismatic Evolutions",
             "image": "images/expansiones/sv8pt5-logo.png"
           },
           {
             "id": "journey-together",
             "name": "Journey Together",
-            "filterType": "subcategoryId",
+            "filterType": "expansion",
             "filterValue": "Journey Together",
             "image": "images/expansiones/sv9-logo.png"
           },
           {
             "id": "destined-rivals",
             "name": "Destined Rivals",
-            "filterType": "subcategoryId",
+            "filterType": "expansion",
             "filterValue": "Destined Rivals",
             "image": "images/expansiones/sv10-logoDR.png"
           },
@@ -374,41 +372,38 @@
           {
             "id": "evolving-skies",
             "name": "Evolving Skies",
-            "filterType": "subcategoryId",
+            "filterType": "expansion",
             "filterValue": "Evolving Skies",
             "image": "images/expansiones/Evolving_Skies.webp"
           },
           {
             "id": "brilliant-stars",
             "name": "Brilliant Stars",
-            "filterType": "subcategoryId",
+            "filterType": "expansion",
             "filterValue": "Brilliant Stars",
             "image": "images/expansiones/swsh09_logo_169_en.png"
           },
           {
             "id": "astral-radiance",
             "name": "Astral Radiance",
-            "filterType": "subcategoryId",
+            "filterType": "expansion",
             "filterValue": "Astral Radiance",
             "image": "images/expansiones/swsh10_logo_169_en.png"
           },
           {
             "id": "lost-origin",
             "name": "Lost Origin",
-            "filterType": "subcategoryId",
+            "filterType": "expansion",
             "filterValue": "Lost Origin",
             "image": "images/expansiones/Pokemon_TCG_Sword_Shield—Lost_Origin_Logo.webp"
           },
           {
             "id": "silver-tempest",
             "name": "Silver Tempest",
-            "filterType": "subcategoryId",
+            "filterType": "expansion",
             "filterValue": "Silver Tempest",
             "image": "images/expansiones/swsh12_logo_169_en.png"
           }
-
-
-
         ]
       }
     ]
