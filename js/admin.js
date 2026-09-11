@@ -621,6 +621,155 @@ function previewAdminProduct(id) {
   }
 }
 
+// ─────────────────────────────────────────────
+// EXPORTAR CATÁLOGO A EXCEL (.xlsx)
+// Usa la librería ExcelJS (cargada vía CDN en index.html), que sí puede
+// incrustar imágenes reales dentro de las celdas. Excel no reconoce bien
+// imágenes .webp/.avif incrustadas, así que cada foto se dibuja primero
+// en un <canvas> oculto y se convierte a PNG antes de pegarla.
+// ─────────────────────────────────────────────
+
+// Carga una imagen y la convierte a PNG en base64 (sin el prefijo data:...).
+// Devuelve null si la imagen no existe o falla al cargar, para no romper
+// el resto de la exportación por una sola foto rota.
+function loadImageAsPngBase64(path, maxSize = 160) {
+  return new Promise(resolve => {
+    if (!path) { resolve(null); return; }
+    const img = new Image();
+    img.onload = () => {
+      try {
+        const ratio = Math.min(maxSize / img.width, maxSize / img.height, 1);
+        const w = Math.max(1, Math.round(img.width * ratio));
+        const h = Math.max(1, Math.round(img.height * ratio));
+        const canvas = document.createElement('canvas');
+        canvas.width = w;
+        canvas.height = h;
+        const ctx = canvas.getContext('2d');
+        ctx.drawImage(img, 0, 0, w, h);
+        const dataUrl = canvas.toDataURL('image/png');
+        resolve({ base64: dataUrl.split(',')[1], width: w, height: h });
+      } catch (err) {
+        resolve(null);
+      }
+    };
+    img.onerror = () => resolve(null);
+    img.src = path;
+  });
+}
+
+async function exportProductsToExcel() {
+  if (typeof ExcelJS === 'undefined') {
+    showAdminToast('No se pudo cargar la librería de Excel. Revisa tu conexión e intenta de nuevo.', 'error');
+    return;
+  }
+  if (!adminProducts || !adminProducts.length) {
+    showAdminToast('No hay productos para exportar.', 'error');
+    return;
+  }
+
+  const exportBtn = document.getElementById('adminExportExcelBtn');
+  if (exportBtn) { exportBtn.disabled = true; exportBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Generando...'; }
+  showAdminToast('Generando Excel con fotos, esto puede tardar unos segundos...', 'info');
+
+  const workbook = new ExcelJS.Workbook();
+  workbook.creator = 'One Play More';
+  workbook.created = new Date();
+
+  const sheet = workbook.addWorksheet('Productos', {
+    views: [{ state: 'frozen', ySplit: 1 }] // congela la fila de encabezado
+  });
+
+  sheet.columns = [
+    { header: 'Imagen',      key: 'image',         width: 12 },
+    { header: 'Nombre',      key: 'name',          width: 34 },
+    { header: 'Precio',      key: 'price',         width: 12 },
+    { header: 'Categoría',   key: 'category',      width: 14 },
+    { header: 'Subcategoría',key: 'subcategoryId',  width: 18 },
+    { header: 'Expansión',   key: 'expansion',      width: 20 },
+    { header: 'Estado',      key: 'status',         width: 13 },
+    { header: 'Stock',       key: 'stock',          width: 8  },
+    { header: 'Ubicación',   key: 'location',       width: 14 },
+    { header: 'Nuevo',       key: 'isNew',          width: 8  },
+    { header: 'Destacado',   key: 'bestSeller',     width: 10 },
+    { header: 'Por encargo', key: 'encargo',        width: 11 },
+    { header: 'Descripción', key: 'description',    width: 55 }
+  ];
+
+  const THIN_GRAY = { style: 'thin', color: { argb: 'FFD0D0D0' } };
+  const FULL_BORDER = { top: THIN_GRAY, left: THIN_GRAY, bottom: THIN_GRAY, right: THIN_GRAY };
+
+  // --- Encabezado: negro, negrita, fondo blanco/gris muy claro ---
+  const headerRow = sheet.getRow(1);
+  headerRow.height = 20;
+  headerRow.eachCell(cell => {
+    cell.font = { bold: true, color: { argb: 'FF1A1A1A' }, size: 11 };
+    cell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFF3F3F3' } };
+    cell.alignment = { vertical: 'middle', horizontal: 'center' };
+    cell.border = FULL_BORDER;
+  });
+  sheet.autoFilter = { from: 'A1', to: 'M1' };
+
+  const ROW_HEIGHT = 60; // suficiente para ver bien la miniatura
+
+  for (let i = 0; i < adminProducts.length; i++) {
+    const p = adminProducts[i];
+    const rowNumber = i + 2; // la fila 1 es el encabezado
+
+    const row = sheet.addRow({
+      image: '',
+      name: p.name || '',
+      price: p.price != null ? p.price : null,
+      category: p.category || '',
+      subcategoryId: p.subcategoryId || '',
+      expansion: p.expansion || '',
+      status: p.status || '',
+      stock: p.stock != null ? p.stock : null,
+      location: p.location || '',
+      isNew: p.new ? 'Sí' : 'No',
+      bestSeller: p.bestSeller ? 'Sí' : 'No',
+      encargo: p.encargo ? 'Sí' : 'No',
+      description: p.description || ''
+    });
+
+    row.height = ROW_HEIGHT;
+    row.getCell('price').numFmt = '$#,##0';
+
+    row.eachCell({ includeEmpty: true }, cell => {
+      cell.border = FULL_BORDER;
+      cell.alignment = { vertical: 'middle', wrapText: false };
+    });
+
+    // Incrustar la foto real (convertida a PNG) dentro de la celda "Imagen"
+    const imgPath = p.images && p.images[0];
+    if (imgPath) {
+      const imgData = await loadImageAsPngBase64(imgPath, 150);
+      if (imgData) {
+        const imageId = workbook.addImage({ base64: imgData.base64, extension: 'png' });
+        // Tamaño de la miniatura dentro de la celda, con un pequeño margen
+        const cellSize = ROW_HEIGHT - 8;
+        const ratio = Math.min(cellSize / imgData.width, cellSize / imgData.height, 1);
+        sheet.addImage(imageId, {
+          tl: { col: 0.05, row: (rowNumber - 1) + 0.05 },
+          ext: { width: imgData.width * ratio, height: imgData.height * ratio }
+        });
+      }
+    }
+  }
+
+  const buffer = await workbook.xlsx.writeBuffer();
+  const blob = new Blob([buffer], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  const today = new Date().toISOString().slice(0, 10);
+  a.download = `catalogo-one-play-more-${today}.xlsx`;
+  a.click();
+  URL.revokeObjectURL(url);
+
+  if (exportBtn) { exportBtn.disabled = false; exportBtn.innerHTML = '<i class="fas fa-file-excel"></i> Exportar Excel'; }
+  showAdminToast(`Excel exportado con ${adminProducts.length} productos.`, 'success');
+}
+
 function exportAdminJSON() {
   const json = JSON.stringify(adminProducts, null, 2);
   const blob = new Blob([json], { type: 'application/json' });
@@ -1835,6 +1984,7 @@ function injectAdminHTML() {
           <button id="adminNewProductBtn" class="admin-btn primary"><i class="fas fa-plus"></i> Nuevo Producto</button>
           <button id="adminApplyBtn" class="admin-btn success"><i class="fas fa-play"></i> Aplicar</button>
           <button id="adminExportBtn" class="admin-btn accent"><i class="fas fa-download"></i> Exportar JSON</button>
+          <button id="adminExportExcelBtn" class="admin-btn accent"><i class="fas fa-file-excel"></i> Exportar Excel</button>
           <button id="adminLogoutBtn" class="admin-btn ghost"><i class="fas fa-sign-out-alt"></i></button>
         </div>
       </div>
@@ -3314,6 +3464,7 @@ function bindAdminEvents() {
     if (id === 'adminSaveProductBtn') saveAdminProduct();
     if (id === 'adminCancelFormBtn')  showAdminView('dashboardView');
     if (id === 'adminExportBtn')  exportAdminJSON();
+    if (id === 'adminExportExcelBtn') exportProductsToExcel();
     if (id === 'adminApplyBtn')   applyAdminChangesLive();
     // Banners
     if (id === 'adminBannersTab') { showAdminView('bannerListView'); }

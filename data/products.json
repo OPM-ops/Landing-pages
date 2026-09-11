@@ -1,5 +1,400 @@
 [
   {
+    "id": "salamence-ex-journey-together-stamped---jtg-114159-mtvzuxe1",
+    "name": "Salamence ex (Journey Together Stamped) - JTG-114/159",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "cartas-ex",
+    "price": 6000,
+    "description": "Carta 114/159 de Journey Together de Salamence ex en inglés, perfecto estado (Near Mint) — Stamped",
+    "expansion": "Journey Together",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/Card/salamenceex114-159.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés"
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "location": "Mi casa"
+  },
+  {
+    "id": "mega-latias-ex---mep-011-mtvznrt0",
+    "name": "Mega Latias ex - MEP-011",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "cartas-ex",
+    "price": 4000,
+    "description": "Carta 011 de MEP (Mega Evolution Promos) de Mega Latias ex en inglés, perfecto estado (Near Mint)",
+    "expansion": "Promo",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/Card/011-large.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés"
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "location": "Mi casa"
+  },
+  {
+    "id": "hydreigon-ex---wht-067086-mtvzf6k4",
+    "name": "Hydreigon ex - WHT-067/086",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "cartas-ex",
+    "price": 4000,
+    "description": "",
+    "expansion": "Black Bolt & White Flare",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "Carta 067/086 de White Flare de Hydreigon ex en inglés, perfecto estado (Near Mint)"
+    ],
+    "images": [
+      "images/Card/67_hires_a9727690-3c9c-46ae-84dd-a6376a5f11f1.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés"
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "location": "Mi casa"
+  },
+  {
+    "id": "cynthias-gible-cosmos-holo---dri-102182-mtvz1j4o",
+    "name": "Cynthia's Gible (Cosmos Holo) - DRI-102/182",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "cartas_estandar",
+    "price": 5500,
+    "description": "Carta 102/182 de Destined Rivals de Cynthia's Gible en inglés, perfecto estado (Near Mint) — Cosmos Holo",
+    "expansion": "Destined Rivals",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/Card/cynthia-s-gible-cosmos-holo-dri-102-sv-black-star-promos.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 5500
+          },
+          {
+            "value": "Inglés",
+            "price": 5500
+          }
+        ]
+      }
+    ],
+    "stock": 3,
+    "location": "Mi casa"
+  },
+  {
+    "id": "pelarena-ex---par-108182-mtvu0028",
+    "name": "Pelarena ex - PAR-108/182",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "ilustraciones_raras",
+    "price": 4000,
+    "description": "Carta 108/182 de Paradox Rift de Sandy Shocks ex en inglés, perfecto estado (Near Mint)",
+    "expansion": "Paradox Rift",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/Card/SANDY.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés"
+          }
+        ]
+      }
+    ],
+    "stock": 1
+  },
+  {
+    "id": "koraidon-ex---svp-197-mtvto84a",
+    "name": "Koraidon ex - SVP-197",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "cartas-ex",
+    "price": 5000,
+    "originalPrice": 6000,
+    "description": "Carta SVP-197 de Scarlet & Violet Black Star Promos de Koraidon ex en inglés, perfecto estado (Near Mint)",
+    "expansion": "Promo",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": true,
+    "encargo": false,
+    "images": [
+      "images/Card/28246_pokemon-koraidon-ex--svp-197.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés"
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "location": "Mi casa"
+  },
+  {
+    "id": "mega-absol-ex---meg-086132-mtvtepkq",
+    "name": "Mega Absol ex - MEG-086/132",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "cartas-ex",
+    "price": 4000,
+    "description": "Carta 086/132 de Mega Evolution de Mega Absol ex en inglés, perfecto estado (Near Mint)",
+    "expansion": "Mega Evolution",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/Card/640.webp"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés"
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "location": "Mi casa"
+  },
+  {
+    "id": "spiritomb---meg-148132-mtvt9ozd",
+    "name": "Spiritomb - MEG-148/132",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "ilustraciones_raras",
+    "price": 12500,
+    "originalPrice": 15000,
+    "description": "Carta 148/132 de Megaevolución de Spiritomb en español, perfecto estado (Near Mint)",
+    "expansion": "Mega Evolution",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/Card/Spiritomb.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español"
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "location": "Mi casa"
+  },
+  {
+    "id": "zeckrom-ex---blk-034086-mtvt2q9a",
+    "name": "Zeckrom ex - BLK-034/086",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "cartas-ex",
+    "price": 4000,
+    "description": "Carta 034/086 de Fulgor Negro de Zekrom ex en español, perfecto estado (Near Mint)",
+    "expansion": "Black Bolt & White Flare",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/Card/zeckrom.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español"
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "location": "Mi casa"
+  },
+  {
+    "id": "team-rockets-zapdos-cosmos-holo---dri-070182-mtvr96gi",
+    "name": "Team Rocket's Zapdos (Cosmos Holo) - DRI-070/182",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "cartas_estandar",
+    "price": 5500,
+    "description": "Carta 070/182 de Destined Rivals de Team Rocket's Zapdos en inglés, perfecto estado (Near Mint) — Cosmos Holo",
+    "expansion": "Destined Rivals",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/Card/658501_in_1000x1000.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Inglés"
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "location": "Mi casa"
+  },
+  {
+    "id": "regirock-ex---asc-107217-mtvqk611",
+    "name": "Regirock ex - ASC-107/217",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "cartas-ex",
+    "price": 4000,
+    "description": "Carta 107/217 de Ascended Heroes de Regirock ex en español, perfecto estado (Near Mint)",
+    "expansion": "Ascended Heroes",
+    "status": "disponible",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/Card/images.png"
+    ],
+    "attributes": [
+      {
+        "name": "Idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 4000
+          }
+        ]
+      }
+    ],
+    "stock": 1
+  },
+  {
+    "id": "houndstone---ttbb23-mtvpxi5x",
+    "name": "Houndstone - TTBB23",
+    "category": "Cartas",
+    "categoryId": "cartas",
+    "subcategoryId": "cartas_estandar",
+    "price": 1500,
+    "description": "Carta holográfica de Trick or Trade (2023) de Houndstone en inglés, perfecto estado (Near Mint)",
+    "expansion": "Trick or Trade 23",
+    "status": "disponible",
+    "new": true,
+    "bestSeller": false,
+    "encargo": false,
+    "images": [
+      "images/Card/8a2107322bdec1d3f1e5b8129da95afa8cba4f53_1024x.webp"
+    ],
+    "attributes": [
+      {
+        "name": "idioma",
+        "options": [
+          {
+            "value": "Inglés",
+            "price": 1500
+          }
+        ]
+      }
+    ],
+    "stock": 1,
+    "location": "Mi casa"
+  },
+  {
+    "id": "mega-greninja-ex-league-battle-deck-mtvmw2pu",
+    "name": "Mega Greninja ex League Battle Deck",
+    "category": "Pokémon TCG",
+    "categoryId": "pokemon",
+    "subcategoryId": "mazos",
+    "price": 135000,
+    "description": "¡Lleva la velocidad y precisión de Mega Greninja ex al campo de batalla!\n\nEl Mega Greninja ex League Battle Deck es un mazo listo para jugar de 60 cartas, diseñado para Entrenadores con experiencia que buscan comenzar a jugar con una estrategia competitiva sin necesidad de construir un mazo desde cero.",
+    "expansion": "Decks",
+    "status": "preventa",
+    "new": false,
+    "bestSeller": false,
+    "encargo": false,
+    "includes": [
+      "1 mazo listo para jugar de 60 cartas",
+      "Cartas de Entrenador y Energías para complementar la estrategia",
+      "6 dados para contadores de daño",
+      "1 dado para lanzamiento de moneda",
+      "2 marcadores de Condiciones Especiales",
+      "1 caja para guardar el mazo",
+      "1 hoja de estrategia"
+    ],
+    "images": [
+      "images/products/Pokemon-TCG_-_Mega_Greninja_ex_League_Battle_Deck_EN.webp"
+    ],
+    "attributes": [
+      {
+        "name": "idioma",
+        "options": [
+          {
+            "value": "Español",
+            "price": 135000
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "mini-tin-lumiose-city-mtuus0ut",
     "name": "Mini Tin Lumiose City",
     "category": "Pokémon TCG",
@@ -569,7 +964,8 @@
         "options": [
           {
             "value": "Inglés",
-            "price": 140000
+            "price": 140000,
+            "available": false
           },
           {
             "value": "Español",
@@ -616,7 +1012,8 @@
           },
           {
             "value": "Inglés",
-            "price": 235000
+            "price": 235000,
+            "available": false
           }
         ]
       }
@@ -909,7 +1306,7 @@
     "name": "Terapagos ex - SCR-128/142",
     "category": "Cartas",
     "categoryId": "cartas",
-    "subcategoryId": "cartas_estandar",
+    "subcategoryId": "cartas-ex",
     "price": 4000,
     "description": "Carta 128/142 Terapagos ex en inglés, perfecto estado (Near Mint)",
     "expansion": "Stellar Crown",
@@ -925,7 +1322,7 @@
         "name": "Idioma",
         "options": [
           {
-            "value": "Inglés Near Mint",
+            "value": "Inglés",
             "price": 4000
           }
         ]
@@ -952,10 +1349,10 @@
     ],
     "attributes": [
       {
-        "name": "Idioma-versión",
+        "name": "Idioma",
         "options": [
           {
-            "value": "Inglés holográfica",
+            "value": "Inglés",
             "price": 1000
           }
         ]
@@ -986,7 +1383,7 @@
         "name": "Idioma",
         "options": [
           {
-            "value": "EspañolNear Mint",
+            "value": "Español",
             "price": 3000
           }
         ]
@@ -1016,7 +1413,7 @@
         "name": "Idioma",
         "options": [
           {
-            "value": "Inglés Near Mint",
+            "value": "Inglés",
             "price": 70000
           }
         ]
@@ -1046,7 +1443,7 @@
         "name": "Idioma",
         "options": [
           {
-            "value": "Inglés Near Mint",
+            "value": "Inglés",
             "price": 12000
           }
         ]
@@ -1076,7 +1473,7 @@
         "name": "Idioma",
         "options": [
           {
-            "value": "Inglés Near Mint",
+            "value": "Inglés",
             "price": 1500
           }
         ]
@@ -1106,7 +1503,7 @@
         "name": "Idioma",
         "options": [
           {
-            "value": "Inglés Near Mint",
+            "value": "Inglés",
             "price": 8500
           }
         ]
@@ -1136,7 +1533,7 @@
         "name": "Idioma",
         "options": [
           {
-            "value": "Inglés Near Mint",
+            "value": "Inglés",
             "price": 3500
           }
         ]
@@ -1165,7 +1562,7 @@
         "name": "Idioma",
         "options": [
           {
-            "value": "Español Near Mint",
+            "value": "Español",
             "price": 3500
           }
         ]
@@ -1196,14 +1593,12 @@
         "name": "Idioma",
         "options": [
           {
-            "value": "Español Near Mint",
-            "price": 5500,
-            "originalPrice": 6000
+            "value": "Español",
+            "price": 5500
           },
           {
-            "value": "Inglés Near Mint",
-            "price": 5500,
-            "originalPrice": 6000
+            "value": "Inglés",
+            "price": 5500
           }
         ]
       }
@@ -1232,7 +1627,7 @@
         "name": "Idioma",
         "options": [
           {
-            "value": "Inglés Near Mint",
+            "value": "Inglés",
             "price": 30000
           }
         ]
@@ -1262,7 +1657,7 @@
         "name": "Idioma",
         "options": [
           {
-            "value": "Inglés Near Mint",
+            "value": "Inglés",
             "price": 30000
           }
         ]
@@ -1292,7 +1687,7 @@
         "name": "Idioma",
         "options": [
           {
-            "value": "Español Near Mint",
+            "value": "Español",
             "price": 8000
           }
         ]
@@ -1323,9 +1718,8 @@
         "name": "Idioma",
         "options": [
           {
-            "value": "Japonés Near Mint",
-            "price": 10500,
-            "originalPrice": 12000
+            "value": "Japonés",
+            "price": 10500
           }
         ]
       }
@@ -1355,9 +1749,8 @@
         "name": "Idioma",
         "options": [
           {
-            "value": "Español Near Mint",
-            "price": 45000,
-            "originalPrice": 50000
+            "value": "Español",
+            "price": 45000
           }
         ]
       }
@@ -1385,7 +1778,7 @@
         "name": "Idioma",
         "options": [
           {
-            "value": "Inglés Near Mint",
+            "value": "Inglés",
             "price": 15000
           }
         ]
@@ -1418,9 +1811,8 @@
         "name": "Idioma",
         "options": [
           {
-            "value": "Español Near Mint",
-            "price": 18500,
-            "originalPrice": 20000
+            "value": "Español",
+            "price": 18500
           }
         ]
       }
@@ -1519,9 +1911,8 @@
         "name": "Idioma",
         "options": [
           {
-            "value": "Español Near Mint",
-            "price": 40000,
-            "originalPrice": 43000
+            "value": "Español",
+            "price": 40000
           }
         ]
       }

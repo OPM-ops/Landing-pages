@@ -196,43 +196,8 @@
     "menuStyle": "grid-tiered",
     "eras": [
       {
-        "name": "Scarlet & Violet",
+        "name": "Mega Evolution",
         "expansions": [
-          {
-            "id": "expansion_sv",
-            "name": "Scarlet & Violet",
-            "filterType": "expansion",
-            "filterValue": "Scarlet & Violet",
-            "image": "images/expansiones/ptcg-sc1-logo.webp"
-          },
-          {
-            "id": "expansion_paldean_fates",
-            "name": "Paldean Fates",
-            "filterType": "expansion",
-            "filterValue": "Paldean Fates",
-            "image": "images/expansiones/sv045_logo_169_en.png"
-          },
-          {
-            "id": "expansion_temporal_forces",
-            "name": "Temporal Forces",
-            "filterType": "expansion",
-            "filterValue": "Temporal Forces",
-            "image": "images/expansiones/images.png"
-          },
-          {
-            "id": "shrouded-fable",
-            "name": "Shrouded Fable",
-            "filterType": "expansion",
-            "filterValue": "Shrouded Fable",
-            "image": "images/expansiones/sv6pt5-logo.png"
-          },
-          {
-            "id": "black-bolt-white-flare",
-            "name": "Black Bolt & White Flare",
-            "filterType": "expansion",
-            "filterValue": "Black Bolt & White Flare",
-            "image": "images/expansiones/Pokemon_TCG_Scarlet_Violet—Black_Bolt_and_Scarlet_Violet—White_Flare_Logo.webp"
-          },
           {
             "id": "mega-evolution",
             "name": "Mega Evolution",
@@ -274,12 +239,177 @@
             "filterType": "expansion",
             "filterValue": "Pitch Black",
             "image": "images/expansiones/me05.png"
+          },
+          {
+            "id": "30th-celebration",
+            "name": "30th Celebration",
+            "filterType": "expansion",
+            "filterValue": "30th aniversario",
+            "image": "images/expansiones/P11221-30th_Logo_EN_CMYK_GLOSS_WP-7117x3926-b3babf6.webp"
+          },
+          {
+            "id": "delta-reign",
+            "name": "Delta Reign",
+            "filterType": "expansion",
+            "filterValue": "Delta Reign",
+            "image": "images/expansiones/P11222_ME06_Logo_EN-3757x1799-9dc7257.webp"
+          }
+        ]
+      },
+      {
+        "name": "Scarlet & Violet",
+        "expansions": [
+          {
+            "id": "expansion_sv",
+            "name": "Scarlet & Violet",
+            "filterType": "expansion",
+            "filterValue": "Scarlet & Violet",
+            "image": "images/expansiones/ptcg-sc1-logo.webp"
+          },
+          {
+            "id": "paldea-evolved",
+            "name": "Paldea Evolved",
+            "filterType": "subcategoryId",
+            "filterValue": "Paldea Evolved",
+            "image": "images/expansiones/sv02-header-logo.png"
+          },
+          {
+            "id": "obsidian-flames",
+            "name": "Obsidian Flames",
+            "filterType": "subcategoryId",
+            "filterValue": "Obsidian Flames",
+            "image": "images/expansiones/sv03-header-logo.png"
+          },
+          {
+            "id": "151",
+            "name": "151",
+            "filterType": "subcategoryId",
+            "filterValue": "151",
+            "image": "images/expansiones/sv035_logo_169_en.png"
+          },
+          {
+            "id": "paradox-rift",
+            "name": "Paradox Rift",
+            "filterType": "subcategoryId",
+            "filterValue": "Paradox Rift",
+            "image": "images/expansiones/sv04-logo-cmyk.png"
+          },
+
+          {
+            "id": "expansion_paldean_fates",
+            "name": "Paldean Fates",
+            "filterType": "expansion",
+            "filterValue": "Paldean Fates",
+            "image": "images/expansiones/sv045_logo_169_en.png"
+          },
+          {
+            "id": "expansion_temporal_forces",
+            "name": "Temporal Forces",
+            "filterType": "expansion",
+            "filterValue": "Temporal Forces",
+            "image": "images/expansiones/images.png"
+          },
+          {
+            "id": "twilight-masquerade",
+            "name": "Twilight Masquerade",
+            "filterType": "subcategoryId",
+            "filterValue": "Twilight Masquerade",
+            "image": "images/expansiones/sv06_logo_169_en.png"
+          },
+
+          {
+            "id": "shrouded-fable",
+            "name": "Shrouded Fable",
+            "filterType": "expansion",
+            "filterValue": "Shrouded Fable",
+            "image": "images/expansiones/sv6pt5-logo.png"
+          },
+          {
+            "id": "stellar-crown",
+            "name": "Stellar Crown",
+            "filterType": "subcategoryId",
+            "filterValue": "Stellar Crown",
+            "image": "images/expansiones/sv7-logo.png"
+          },
+          {
+            "id": "surging-sparks",
+            "name": "Surging Sparks",
+            "filterType": "subcategoryId",
+            "filterValue": "Surging Sparks",
+            "image": "images/expansiones/sv8-logo.png"
+          },
+          {
+            "id": "prismatic-evolutions",
+            "name": "Prismatic Evolutions",
+            "filterType": "subcategoryId",
+            "filterValue": "Prismatic Evolutions",
+            "image": "images/expansiones/sv8pt5-logo.png"
+          },
+          {
+            "id": "journey-together",
+            "name": "Journey Together",
+            "filterType": "subcategoryId",
+            "filterValue": "Journey Together",
+            "image": "images/expansiones/sv9-logo.png"
+          },
+          {
+            "id": "destined-rivals",
+            "name": "Destined Rivals",
+            "filterType": "subcategoryId",
+            "filterValue": "Destined Rivals",
+            "image": "images/expansiones/sv10-logoDR.png"
+          },
+          {
+            "id": "black-bolt-white-flare",
+            "name": "Black Bolt & White Flare",
+            "filterType": "expansion",
+            "filterValue": "Black Bolt & White Flare",
+            "image": "images/expansiones/Pokemon_TCG_Scarlet_Violet—Black_Bolt_and_Scarlet_Violet—White_Flare_Logo.webp"
           }
         ]
       },
       {
         "name": "Sword & Shield",
-        "expansions": []
+        "expansions": [
+          {
+            "id": "evolving-skies",
+            "name": "Evolving Skies",
+            "filterType": "subcategoryId",
+            "filterValue": "Evolving Skies",
+            "image": "images/expansiones/Evolving_Skies.webp"
+          },
+          {
+            "id": "brilliant-stars",
+            "name": "Brilliant Stars",
+            "filterType": "subcategoryId",
+            "filterValue": "Brilliant Stars",
+            "image": "images/expansiones/swsh09_logo_169_en.png"
+          },
+          {
+            "id": "astral-radiance",
+            "name": "Astral Radiance",
+            "filterType": "subcategoryId",
+            "filterValue": "Astral Radiance",
+            "image": "images/expansiones/swsh10_logo_169_en.png"
+          },
+          {
+            "id": "lost-origin",
+            "name": "Lost Origin",
+            "filterType": "subcategoryId",
+            "filterValue": "Lost Origin",
+            "image": "images/expansiones/Pokemon_TCG_Sword_Shield—Lost_Origin_Logo.webp"
+          },
+          {
+            "id": "silver-tempest",
+            "name": "Silver Tempest",
+            "filterType": "subcategoryId",
+            "filterValue": "Silver Tempest",
+            "image": "images/expansiones/swsh12_logo_169_en.png"
+          }
+
+
+
+        ]
       }
     ]
   },

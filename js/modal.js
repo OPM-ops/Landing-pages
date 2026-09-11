@@ -35,24 +35,44 @@ function openProductModal(product) {
     const priceMap = {};
     const originalPriceMap = {};
     let attributesHTML = '';
-    
+    let hasFullySoldOutAttribute = false;
+
     if (product.attributes && product.attributes.length > 0) {
         attributesHTML = product.attributes.map(attr => {
             const attrKey = normalizeId(attr.name);
+
+            // Primero identificamos cuál es la primera opción disponible de este
+            // atributo, para preseleccionarla — así nunca queda por defecto
+            // elegida una opción agotada (el navegador, si no se le indica nada,
+            // selecciona la primera opción de la lista sin importar si está
+            // deshabilitada).
+            let firstAvailableValue = null;
+            attr.options.forEach(opt => {
+                const optAvailable = !(typeof opt === 'object' && opt.available === false);
+                const optValue = typeof opt === 'string' ? opt : opt.value;
+                if (optAvailable && firstAvailableValue === null) {
+                    firstAvailableValue = optValue;
+                }
+            });
+            if (firstAvailableValue === null) hasFullySoldOutAttribute = true;
+
             const optionsHTML = attr.options.map(opt => {
                 const optValue = typeof opt === 'string' ? opt : opt.value;
                 const optPrice = typeof opt === 'object' && opt.price ? opt.price : basePrice;
                 const optOriginal = (typeof opt === 'object' && opt.originalPrice) ? opt.originalPrice : baseOriginalPrice;
-                
+                const optAvailable = !(typeof opt === 'object' && opt.available === false);
+
                 if (!priceMap[attr.name]) priceMap[attr.name] = {};
                 priceMap[attr.name][optValue] = optPrice;
-                
+
                 if (!originalPriceMap[attr.name]) originalPriceMap[attr.name] = {};
                 originalPriceMap[attr.name][optValue] = optOriginal;
-                
+
                 const diff = optPrice - basePrice;
                 const diffText = diff > 0 ? ` (+$${diff.toLocaleString('es-CO')})` : (diff < 0 ? ` (-$${Math.abs(diff).toLocaleString('es-CO')})` : '');
-                return `<option value="${optValue}">${optValue}${diffText}</option>`;
+                const soldOutText = optAvailable ? '' : ' — Agotado';
+                const isSelected = optValue === firstAvailableValue;
+                return `<option value="${optValue}" ${optAvailable ? '' : 'disabled'} ${isSelected ? 'selected' : ''}>${optValue}${diffText}${soldOutText}</option>`;
             }).join('');
             
             return `
@@ -182,8 +202,9 @@ function openProductModal(product) {
 
     const addBtn = document.getElementById('addToCartFromModal');
     if (addBtn) {
-        // Deshabilitar botón si el producto está agotado
-        if (product.status === 'agotado' || product.status === 'proximamente') {
+        // Deshabilitar botón si el producto está agotado, o si alguno de sus
+        // atributos (ej. Idioma) no tiene ninguna opción disponible.
+        if (product.status === 'agotado' || product.status === 'proximamente' || hasFullySoldOutAttribute) {
             addBtn.disabled = true;
             addBtn.textContent = 'Producto agotado';
             addBtn.style.background = '#6b7280';
@@ -199,10 +220,24 @@ function openProductModal(product) {
 
         addBtn.addEventListener('click', function() {
             // Doble validación: no permitir agregar si está agotado
-            if (product.status === 'agotado' || product.status === 'proximamente') {
+            if (product.status === 'agotado' || product.status === 'proximamente' || hasFullySoldOutAttribute) {
                 if (typeof showToast === 'function') showToast('❌ No se puede añadir: producto agotado', 2500);
                 return;
             }
+
+            // Triple validación: por si alguna opción agotada quedó seleccionada
+            // (no debería pasar con las opciones disabled, pero por seguridad)
+            if (product.attributes) {
+                for (const attr of product.attributes) {
+                    const attrKey = normalizeId(attr.name);
+                    const select = document.getElementById(`attr-${attrKey}`);
+                    if (select && select.options[select.selectedIndex]?.disabled) {
+                        if (typeof showToast === 'function') showToast(`❌ Esa opción de ${attr.name} está agotada`, 2500);
+                        return;
+                    }
+                }
+            }
+
             const quantity = parseInt(document.getElementById('productQuantity').value, 10) || 1;
             const selectedOptions = {};
             let finalPrice = basePrice;
