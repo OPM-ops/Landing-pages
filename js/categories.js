@@ -2,12 +2,25 @@
 let allCategories = [];
 let currentFilter = { categoryId: 'all', filterType: null, filterValue: null };
 
-// Genera el grid de badges de expansión (con logo o texto de respaldo)
+// ¿Existe al menos un producto que haga match con esta subcategoría/expansión?
+// Si los productos aún no cargaron, no ocultamos nada (mejor de más que de menos).
+function hasProductsFor(sub, categoryId) {
+  if (typeof allProducts === 'undefined' || !allProducts.length) return true;
+  return allProducts.some(p => p.categoryId === categoryId && p[sub.filterType] === sub.filterValue);
+}
+
+// Genera el grid de badges de expansión (con logo o texto de respaldo).
+// Solo muestra las que ya tienen al menos 1 producto cargado — así el
+// cliente nunca entra a una expansión vacía sin nada para comprar, y el
+// día que agregues el primer producto de una, aparece sola sin que tengas
+// que tocar el menú a mano.
 function buildExpansionBadgesHTML(expansions, categoryId) {
-  if (!expansions || expansions.length === 0) {
+  const visibleExpansions = (expansions || []).filter(sub => hasProductsFor(sub, categoryId));
+
+  if (!visibleExpansions || visibleExpansions.length === 0) {
     return `<div class="mega-menu-empty">Muy pronto agregamos expansiones de esta era.</div>`;
   }
-  return expansions.map(sub => `
+  return visibleExpansions.map(sub => `
     <button class="mega-menu-badge" data-filter-type="${sub.filterType || ''}" data-filter-value="${sub.filterValue || ''}" data-category-id="${sub.categoryId || categoryId}">
       ${sub.image ? `<img src="${sub.image}" alt="${sub.name}" class="mega-menu-badge-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
       <span class="mega-menu-badge-fallback" style="display:none;">${sub.name}</span>` : `<span class="mega-menu-badge-fallback">${sub.name}</span>`}
@@ -21,9 +34,33 @@ function switchMegaMenuEra(contentDiv, cat, eraIndex) {
   contentDiv.querySelectorAll('.mega-menu-era-tab').forEach((tab, i) => {
     tab.classList.toggle('active', i === eraIndex);
   });
-  const era = (cat.eras || [])[eraIndex];
+  const era = groupExpansionsByEra(cat.expansions, cat.id)[eraIndex];
   const grid = contentDiv.querySelector('.mega-menu-grid');
   if (grid) grid.innerHTML = buildExpansionBadgesHTML(era ? era.expansions : [], cat.id);
+}
+
+// Agrupa las expansiones propias de "Cartas" (cat.expansions) por su campo
+// "era" (ej. "Scarlet & Violet"), para armar las pestañas del mega-menú.
+// Esta lista es independiente de las subcategorías de "Pokémon TCG": una
+// misma expansión puede existir en un menú, en el otro, en ambos o en
+// ninguno — se gestionan por separado a propósito (a veces hay cartas
+// sueltas disponibles de una expansión, pero no producto sellado, o
+// viceversa).
+function groupExpansionsByEra(expansions, categoryId) {
+  const eraOrder = [];
+  const eraMap = {};
+
+  (expansions || []).forEach(exp => {
+    if (!exp.era) return; // sin era asignada = no se agrupa (no aparece en el mega-menú por eras)
+    if (!hasProductsFor(exp, categoryId)) return; // sin productos = no se muestra (ni la expansión ni, si queda vacía, su era)
+    if (!eraMap[exp.era]) {
+      eraMap[exp.era] = [];
+      eraOrder.push(exp.era);
+    }
+    eraMap[exp.era].push(exp);
+  });
+
+  return eraOrder.map(eraName => ({ name: eraName, expansions: eraMap[eraName] }));
 }
 
 async function loadCategories() {
@@ -123,7 +160,7 @@ function renderCategories(categories) {
             `).join('')}
           </div>` : '';
 
-        const eras = cat.eras || [];
+        const eras = groupExpansionsByEra(cat.expansions, cat.id);
         contentDiv.innerHTML = `
           <div class="mega-menu-inner">
             <div class="mega-menu-title">Explora Cartas</div>

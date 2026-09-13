@@ -134,7 +134,10 @@ function openProductModal(product) {
             </div>
             <div class="product-detail-info">
                 <h3>${product.name}</h3>
-                <p class="product-category">${product.category}</p>
+                <div class="product-category-row">
+                    <p class="product-category">${product.category}</p>
+                    ${product.condition ? `<span class="product-condition-badge" title="Condición de la carta"><span>${product.condition}</span></span>` : ''}
+                </div>
                 <div class="product-detail-price-container" id="priceContainer">
                     <span class="old-price" id="modalOriginalPrice" style="display: none;"></span>
                     <span class="product-detail-price current-price" id="modalCurrentPrice">$${product.price.toLocaleString('es-CO')}</span>
@@ -324,7 +327,10 @@ function openQuickView(product) {
                 </div>
                 <div class="quick-view-details">
                     <h3>${product.name}</h3>
-                    <p class="product-category">${product.category}</p>
+                    <div class="product-category-row">
+                        <p class="product-category">${product.category}</p>
+                        ${product.condition ? `<span class="product-condition-badge" title="Condición de la carta"><span>${product.condition}</span></span>` : ''}
+                    </div>
                     <div class="product-detail-price-container">
                         ${product.originalPrice ? `<span class="old-price">$${product.originalPrice.toLocaleString('es-CO')}</span>` : ''}
                         <span class="product-detail-price current-price">$${product.price.toLocaleString('es-CO')}</span>

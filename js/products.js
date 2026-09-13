@@ -137,7 +137,10 @@ function buildProductCard(product) {
         ${langBadgesHTML}
       </div>
       <div class="product-info">
-        <p class="product-category">${escapeHtml(product.category || '')}</p>
+        <div class="product-category-row">
+          <p class="product-category">${escapeHtml(product.category || '')}</p>
+          ${product.condition ? `<span class="product-condition-badge" title="${escapeHtml(product.condition)}"><span>${getConditionAbbrev(product.condition)}</span></span>` : ''}
+        </div>
         <h3 class="product-title" title="${escapeHtml(product.name)}">${escapeHtml(product.name)}</h3>
         <div class="product-price-row">
           ${hasDiscount
@@ -212,6 +215,19 @@ function getLanguageCountryCode(name) {
   };
   const key = String(name || '').trim().toLowerCase();
   return map[key] || 'xx';
+}
+
+// Abrevia la condición de la carta para la insignia pequeña (ej. "Near Mint" -> "NM")
+function getConditionAbbrev(condition) {
+  const map = {
+    'Mint': 'M',
+    'Near Mint': 'NM',
+    'Lightly Played': 'LP',
+    'Moderately Played': 'MP',
+    'Heavily Played': 'HP',
+    'Damaged': 'DMG'
+  };
+  return map[condition] || condition;
 }
 
 function escapeHtml(str) {

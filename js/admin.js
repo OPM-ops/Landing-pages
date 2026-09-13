@@ -16,6 +16,7 @@ let adminCoupons     = [];
 let editingBannerIndex = null;
 let editingCategoryIndex = null;
 let editingSubcategoryIndex = null;
+let editingSubcategoryArrayKey = 'subcategories'; // 'subcategories' o 'expansions'
 let editingCouponIndex = null;
 
 const BANNER_IMAGE_SIZES = {
@@ -428,6 +429,7 @@ function openProductForm(product = null) {
     document.getElementById('formOriginalPrice').value = product.originalPrice || '';
     document.getElementById('formDescription').value = product.description || '';
     document.getElementById('formExpansion').value   = product.expansion   || '';
+    document.getElementById('formCondition').value   = product.condition  || '';
     document.getElementById('formStatus').value      = product.status      || 'disponible';
     document.getElementById('formNew').checked       = !!product.new;
     document.getElementById('formBestSeller').checked = !!product.bestSeller;
@@ -451,9 +453,11 @@ function openProductForm(product = null) {
       if (subSelRestore) subSelRestore.value = product.subcategoryId || '';
     }
 
-    document.getElementById('formAttributes').value = product.attributes
-      ? JSON.stringify(product.attributes, null, 2)
-      : '';
+    const attrBuilder = document.getElementById('attributesBuilder');
+    if (attrBuilder) attrBuilder.innerHTML = '';
+    if (product.attributes && product.attributes.length) {
+      product.attributes.forEach(attr => addAttributeBlock(attr.name, attr.options));
+    }
   }
 
   updateProductPreview();
@@ -462,11 +466,13 @@ function openProductForm(product = null) {
 
 function clearProductForm() {
   ['formId','formName','formPrice','formOriginalPrice','formDescription',
-   'formExpansion','formAttributes','formIncludes','formImages','formEncargoNota',
+   'formExpansion','formCondition','formIncludes','formImages','formEncargoNota',
    'formStock','formCost','formLocation','formBoardGameId'].forEach(id => {
     const el = document.getElementById(id);
     if (el) el.value = '';
   });
+  const attrBuilder = document.getElementById('attributesBuilder');
+  if (attrBuilder) attrBuilder.innerHTML = '';
   const status = document.getElementById('formStatus');
   if (status) status.value = 'disponible';
   ['formNew','formBestSeller','formEncargo'].forEach(id => {
@@ -491,6 +497,120 @@ function deleteAdminProduct(id) {
   showAdminToast('Producto eliminado de la lista temporal.', 'warning');
 }
 
+// ─────────────────────────────────────────────
+// BUILDER VISUAL DE ATRIBUTOS/VARIANTES (ej. Idioma, Talla)
+// ─────────────────────────────────────────────
+function escAttrVal(str) {
+  return String(str == null ? '' : str).replace(/"/g, '&quot;');
+}
+
+let attrBlockUidCounter = 0;
+
+function addAttributeBlock(name = '', options = []) {
+  const container = document.getElementById('attributesBuilder');
+  if (!container) return;
+  const uid = attrBlockUidCounter++;
+
+  const block = document.createElement('div');
+  block.className = 'attribute-block';
+  block.id = `attr-block-${uid}`;
+  block.dataset.nextOptUid = '0';
+  block.style.cssText = 'border:1px solid rgba(255,255,255,0.12); border-radius:10px; padding:0.8rem; background:rgba(255,255,255,0.03);';
+  block.innerHTML = `
+    <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.7rem;">
+      <input type="text" class="attr-name-input" placeholder="Nombre del atributo (ej. Idioma)" value="${escAttrVal(name)}"
+             style="flex:1; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.15); border-radius:6px; padding:0.45rem 0.6rem; color:#fff; font-size:0.85rem;">
+      <button type="button" onclick="removeAttributeBlock(${uid})" title="Eliminar atributo completo"
+              style="background:rgba(220,60,60,0.15); border:1px solid rgba(220,60,60,0.4); color:#ff8a8a; border-radius:6px; width:32px; height:32px; cursor:pointer; flex-shrink:0;">
+        <i class="fas fa-trash"></i>
+      </button>
+    </div>
+    <div class="attribute-options-list" id="attr-options-${uid}" style="display:flex; flex-direction:column; gap:0.5rem;"></div>
+    <button type="button" onclick="addOptionRow(${uid})"
+            style="margin-top:0.6rem; background:none; border:1px dashed rgba(255,255,255,0.3); color:rgba(255,255,255,0.7); border-radius:6px; padding:0.35rem 0.7rem; font-size:0.75rem; cursor:pointer;">
+      <i class="fas fa-plus"></i> Agregar opción
+    </button>
+  `;
+  container.appendChild(block);
+
+  if (options && options.length) {
+    options.forEach(opt => {
+      const optValue = typeof opt === 'string' ? opt : opt.value;
+      const optPrice = (typeof opt === 'object' && opt.price != null) ? opt.price : '';
+      const optAvailable = !(typeof opt === 'object' && opt.available === false);
+      addOptionRow(uid, optValue, optPrice, optAvailable);
+    });
+  } else {
+    addOptionRow(uid);
+  }
+}
+
+function removeAttributeBlock(uid) {
+  const block = document.getElementById(`attr-block-${uid}`);
+  if (block) block.remove();
+}
+
+function addOptionRow(attrUid, value = '', price = '', available = true) {
+  const block = document.getElementById(`attr-block-${attrUid}`);
+  const optsContainer = document.getElementById(`attr-options-${attrUid}`);
+  if (!block || !optsContainer) return;
+
+  const optUid = parseInt(block.dataset.nextOptUid, 10);
+  block.dataset.nextOptUid = String(optUid + 1);
+
+  const row = document.createElement('div');
+  row.id = `opt-row-${attrUid}-${optUid}`;
+  row.style.cssText = 'display:flex; align-items:center; gap:0.5rem; flex-wrap:wrap;';
+  row.innerHTML = `
+    <input type="text" class="opt-value-input" placeholder="Valor (ej. Español)" value="${escAttrVal(value)}"
+           style="flex:1 1 130px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.15); border-radius:6px; padding:0.4rem 0.55rem; color:#fff; font-size:0.8rem;">
+    <input type="number" class="opt-price-input" placeholder="Precio (opcional)" min="0" value="${price !== '' && price != null ? price : ''}"
+           style="flex:1 1 130px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.15); border-radius:6px; padding:0.4rem 0.55rem; color:#fff; font-size:0.8rem;">
+    <label style="display:flex; align-items:center; gap:0.35rem; font-size:0.78rem; color:rgba(255,255,255,0.75); white-space:nowrap;">
+      <input type="checkbox" class="opt-available-input" ${available ? 'checked' : ''}> Disponible
+    </label>
+    <button type="button" onclick="removeOptionRow(${attrUid}, ${optUid})" title="Eliminar esta opción"
+            style="background:rgba(220,60,60,0.12); border:1px solid rgba(220,60,60,0.35); color:#ff8a8a; border-radius:6px; width:28px; height:28px; cursor:pointer; flex-shrink:0;">
+      <i class="fas fa-times"></i>
+    </button>
+  `;
+  optsContainer.appendChild(row);
+}
+
+function removeOptionRow(attrUid, optUid) {
+  const row = document.getElementById(`opt-row-${attrUid}-${optUid}`);
+  if (row) row.remove();
+}
+
+function readAttributesFromBuilder() {
+  const attributes = [];
+  document.querySelectorAll('#attributesBuilder .attribute-block').forEach(block => {
+    const nameInput = block.querySelector('.attr-name-input');
+    const attrName = nameInput ? nameInput.value.trim() : '';
+    if (!attrName) return;
+
+    const options = [];
+    block.querySelectorAll('.attribute-options-list > div').forEach(row => {
+      const valueInput = row.querySelector('.opt-value-input');
+      const value = valueInput ? valueInput.value.trim() : '';
+      if (!value) return;
+
+      const priceInput = row.querySelector('.opt-price-input');
+      const priceRaw = priceInput ? priceInput.value : '';
+      const availableInput = row.querySelector('.opt-available-input');
+      const available = availableInput ? availableInput.checked : true;
+
+      const opt = { value };
+      if (priceRaw !== '') opt.price = parseFloat(priceRaw);
+      if (!available) opt.available = false;
+      options.push(opt);
+    });
+
+    if (options.length) attributes.push({ name: attrName, options });
+  });
+  return attributes;
+}
+
 function saveAdminProduct() {
   const name  = document.getElementById('formName').value.trim();
   const price = parseFloat(document.getElementById('formPrice').value);
@@ -505,12 +625,7 @@ function saveAdminProduct() {
     .split("\n").map(s => s.trim()).filter(Boolean);
   const images     = document.getElementById('formImages').value
     .split("\n").map(s => s.trim()).filter(Boolean);
-  let attributes   = [];
-  const attrsRaw   = document.getElementById('formAttributes').value.trim();
-  if (attrsRaw) {
-    try { attributes = JSON.parse(attrsRaw); }
-    catch { showAdminToast('El JSON de atributos no es válido.', 'error'); return; }
-  }
+  const attributes = readAttributesFromBuilder();
 
   const id = editingProductId || slugify(name) + '-' + Date.now().toString(36);
   const subSel = document.getElementById('formSubcategory');
@@ -530,6 +645,7 @@ function saveAdminProduct() {
     originalPrice: parseFloat(document.getElementById('formOriginalPrice').value) || null,
     description:   document.getElementById('formDescription').value.trim(),
     expansion:     document.getElementById('formExpansion').value.trim() || undefined,
+    condition:     document.getElementById('formCondition').value || undefined,
     status:        document.getElementById('formStatus').value,
     new:           document.getElementById('formNew').checked,
     bestSeller:    document.getElementById('formBestSeller').checked,
@@ -582,6 +698,7 @@ function updateProductPreview() {
   const isNew   = document.getElementById('formNew')?.checked;
   const isOffer = document.getElementById('formBestSeller')?.checked;
   const isEnc   = document.getElementById('formEncargo')?.checked;
+  const condition = document.getElementById('formCondition')?.value || '';
 
   const preview = document.getElementById('adminPreviewCard');
   if (!preview) return;
@@ -595,7 +712,10 @@ function updateProductPreview() {
         <img src="${img}" alt="${name}" onerror="this.src='images/products/placeholder.jpg'">
       </div>
       <div class="admin-preview-body">
-        <div class="admin-preview-cat">${cat}</div>
+        <div class="admin-preview-cat-row">
+          <div class="admin-preview-cat">${cat}</div>
+          ${condition ? `<div class="admin-preview-condition"><span>${condition}</span></div>` : ''}
+        </div>
         <div class="admin-preview-name">${name}</div>
         <div class="admin-preview-prices">
           ${origP ? `<span class="admin-preview-orig">$${origP.toLocaleString('es-CO')}</span>` : ''}
@@ -1674,7 +1794,9 @@ function renderAdminCategoryList() {
 
   container.innerHTML = adminCategories.map((cat, idx) => {
     const subCount = cat.subcategories ? cat.subcategories.length : 0;
+    const expCount = cat.expansions ? cat.expansions.length : 0;
     const gridBadge = cat.menuStyle === 'grid' ? ' · <i class="fas fa-th-large"></i> Mega-menú grid' : '';
+    const isCartas = cat.id === 'cartas';
     return `
       <div class="admin-category-row" data-index="${idx}">
         <div class="admin-reorder-col">
@@ -1683,11 +1805,12 @@ function renderAdminCategoryList() {
         </div>
         <div class="admin-category-info">
           <div class="admin-category-name">${cat.name}</div>
-          <div class="admin-category-meta">ID: ${cat.id} · ${subCount} subcategoría(s)${gridBadge}</div>
+          <div class="admin-category-meta">ID: ${cat.id} · ${subCount} subcategoría(s)${isCartas ? ` · ${expCount} expansión(es) propia(s)` : ''}${gridBadge}</div>
         </div>
         <div class="admin-category-actions">
           <button class="admin-btn-icon edit" onclick="editAdminCategory(${idx})" title="Editar"><i class="fas fa-pen"></i></button>
           <button class="admin-btn-icon preview" onclick="openSubcategoryForm(${idx})" title="Agregar subcategoría"><i class="fas fa-plus"></i></button>
+          ${isCartas ? `<button class="admin-btn-icon preview" onclick="openSubcategoryForm(${idx}, null, 'expansions')" title="Agregar expansión de Cartas"><i class="fas fa-layer-group"></i></button>` : ''}
           <button class="admin-btn-icon delete" onclick="deleteAdminCategory(${idx})" title="Eliminar"><i class="fas fa-trash"></i></button>
         </div>
       </div>
@@ -1709,6 +1832,29 @@ function renderAdminCategoryList() {
           </div>
         </div>
       `).join('') : ''}
+      ${isCartas && cat.expansions ? `
+        <div class="admin-subcategory-row" style="opacity:0.6; cursor:default;">
+          <div class="admin-subcat-indent">└─</div>
+          <div class="admin-category-info"><div class="admin-category-meta" style="text-transform:uppercase; letter-spacing:0.5px;"><i class="fas fa-layer-group"></i> Expansiones propias de "Cartas" (independientes de Pokémon TCG)</div></div>
+        </div>
+        ${cat.expansions.map((exp, eidx) => `
+        <div class="admin-subcategory-row" data-parent="${idx}" data-index="${eidx}">
+          <div class="admin-subcat-indent">└─</div>
+          <div class="admin-reorder-col">
+            <button class="admin-btn-icon reorder" onclick="moveSubcategory(${idx}, ${eidx}, -1, 'expansions')" title="Subir" ${eidx === 0 ? 'disabled' : ''}><i class="fas fa-chevron-up"></i></button>
+            <button class="admin-btn-icon reorder" onclick="moveSubcategory(${idx}, ${eidx}, 1, 'expansions')" title="Bajar" ${eidx === cat.expansions.length - 1 ? 'disabled' : ''}><i class="fas fa-chevron-down"></i></button>
+          </div>
+          ${exp.image ? `<img src="${exp.image}" class="admin-banner-thumb" style="width:36px;height:36px;" onerror="this.src='images/products/placeholder.jpg'">` : ''}
+          <div class="admin-category-info">
+            <div class="admin-category-name">${exp.name}${exp.image ? '' : ' <span style="font-size:0.65rem; color:rgba(255,255,255,0.35);">(sin logo)</span>'}</div>
+            <div class="admin-category-meta">Filtro: ${exp.filterType} = ${exp.filterValue}${exp.era ? ` · Era: ${exp.era}` : ' · Sin era (no aparece agrupada)'}</div>
+          </div>
+          <div class="admin-category-actions">
+            <button class="admin-btn-icon edit" onclick="openSubcategoryForm(${idx}, ${eidx}, 'expansions')" title="Editar"><i class="fas fa-pen"></i></button>
+            <button class="admin-btn-icon delete" onclick="deleteAdminSubcategory(${idx}, ${eidx}, 'expansions')" title="Eliminar"><i class="fas fa-trash"></i></button>
+          </div>
+        </div>
+      `).join('')}` : ''}
     `;
   }).join('');
 }
@@ -1724,8 +1870,8 @@ function moveCategory(index, direction) {
 }
 
 // Reordenar subcategorías dentro de una categoría
-function moveSubcategory(parentIndex, subIndex, direction) {
-  const subs = adminCategories[parentIndex].subcategories;
+function moveSubcategory(parentIndex, subIndex, direction, arrayKey = 'subcategories') {
+  const subs = adminCategories[parentIndex][arrayKey];
   const newIndex = subIndex + direction;
   if (!subs || newIndex < 0 || newIndex >= subs.length) return;
   const temp = subs[subIndex];
@@ -1772,20 +1918,26 @@ function saveAdminCategory() {
     return;
   }
 
-  const category = { id, name };
+  // Partimos de una copia de la categoría existente (si estamos editando) para
+  // no perder campos que este formulario no controla directamente, como
+  // "expansions" (expansiones propias de Cartas) o "menuStyle: grid-tiered".
+  const existing = editingCategoryIndex !== null ? adminCategories[editingCategoryIndex] : {};
+  const category = { ...existing, id, name };
+
   const catImage = document.getElementById('catImage').value.trim();
   if (catImage) category.image = catImage;
+  else delete category.image;
+
   if (document.getElementById('catHasSubs').checked) {
-    category.subcategories = [];
+    if (!category.subcategories) category.subcategories = [];
     if (document.getElementById('catMenuGrid').checked) {
       category.menuStyle = 'grid';
     }
+  } else {
+    delete category.subcategories;
   }
 
   if (editingCategoryIndex !== null) {
-    if (adminCategories[editingCategoryIndex].subcategories) {
-      category.subcategories = adminCategories[editingCategoryIndex].subcategories;
-    }
     adminCategories[editingCategoryIndex] = category;
   } else {
     adminCategories.push(category);
@@ -1797,27 +1949,31 @@ function saveAdminCategory() {
   showAdminView('categoryListView');
 }
 
-function openSubcategoryForm(parentIndex, subIndex = null) {
+function openSubcategoryForm(parentIndex, subIndex = null, arrayKey = 'subcategories') {
   editingCategoryIndex = parentIndex;
   editingSubcategoryIndex = subIndex;
+  editingSubcategoryArrayKey = arrayKey;
   const parentInput = document.getElementById('subcatParentIndex');
   if (parentInput) parentInput.value = parentIndex;
 
+  const isExpansion = arrayKey === 'expansions';
   const title = document.getElementById('subcategoryFormTitle');
 
   if (subIndex !== null) {
-    const sub = adminCategories[parentIndex].subcategories[subIndex];
-    if (title) title.textContent = 'Editar Subcategoría';
+    const sub = adminCategories[parentIndex][arrayKey][subIndex];
+    if (title) title.textContent = isExpansion ? 'Editar Expansión' : 'Editar Subcategoría';
     document.getElementById('subcatName').value = sub.name || '';
-    document.getElementById('subcatFilterType').value = sub.filterType || 'subcategoryId';
+    document.getElementById('subcatFilterType').value = sub.filterType || (isExpansion ? 'expansion' : 'subcategoryId');
     document.getElementById('subcatFilterValue').value = sub.filterValue || '';
     document.getElementById('subcatImage').value = sub.image || '';
+    document.getElementById('subcatEra').value = sub.era || '';
   } else {
-    if (title) title.textContent = 'Nueva Subcategoría';
+    if (title) title.textContent = isExpansion ? 'Nueva Expansión' : 'Nueva Subcategoría';
     document.getElementById('subcatName').value = '';
-    document.getElementById('subcatFilterType').value = 'subcategoryId';
+    document.getElementById('subcatFilterType').value = isExpansion ? 'expansion' : 'subcategoryId';
     document.getElementById('subcatFilterValue').value = '';
     document.getElementById('subcatImage').value = '';
+    document.getElementById('subcatEra').value = '';
   }
 
   updateSubcatFilterTypeUI();
@@ -1847,9 +2003,10 @@ function saveAdminSubcategory() {
   const name = document.getElementById('subcatName').value.trim();
   const filterType = document.getElementById('subcatFilterType').value;
   const image = document.getElementById('subcatImage').value.trim();
+  const arrayKey = editingSubcategoryArrayKey;
 
   const subId = editingSubcategoryIndex !== null
-    ? adminCategories[editingCategoryIndex].subcategories[editingSubcategoryIndex].id
+    ? adminCategories[editingCategoryIndex][arrayKey][editingSubcategoryIndex].id
     : slugify(name);
 
   // Si el filtro es por subcategoría, el valor SIEMPRE es el propio ID —
@@ -1871,30 +2028,32 @@ function saveAdminSubcategory() {
     filterValue
   };
   if (image) sub.image = image;
+  const era = document.getElementById('subcatEra').value.trim();
+  if (era) sub.era = era;
 
-  if (!adminCategories[editingCategoryIndex].subcategories) {
-    adminCategories[editingCategoryIndex].subcategories = [];
+  if (!adminCategories[editingCategoryIndex][arrayKey]) {
+    adminCategories[editingCategoryIndex][arrayKey] = [];
   }
 
   if (editingSubcategoryIndex !== null) {
-    adminCategories[editingCategoryIndex].subcategories[editingSubcategoryIndex] = sub;
+    adminCategories[editingCategoryIndex][arrayKey][editingSubcategoryIndex] = sub;
   } else {
-    adminCategories[editingCategoryIndex].subcategories.push(sub);
+    adminCategories[editingCategoryIndex][arrayKey].push(sub);
   }
 
   renderAdminCategoryList();
   populateCategorySelect();
-  showAdminToast(editingSubcategoryIndex !== null ? 'Subcategoría actualizada ✓' : 'Subcategoría añadida ✓', 'success');
+  showAdminToast(editingSubcategoryIndex !== null ? 'Guardado ✓' : 'Añadido ✓', 'success');
   editingSubcategoryIndex = null;
   showAdminView('categoryListView');
 }
 
-function deleteAdminSubcategory(parentIndex, subIndex) {
-  if (!confirm('¿Eliminar esta subcategoría?')) return;
-  adminCategories[parentIndex].subcategories.splice(subIndex, 1);
+function deleteAdminSubcategory(parentIndex, subIndex, arrayKey = 'subcategories') {
+  if (!confirm('¿Eliminar esto?')) return;
+  adminCategories[parentIndex][arrayKey].splice(subIndex, 1);
   renderAdminCategoryList();
   populateCategorySelect();
-  showAdminToast('Subcategoría eliminada.', 'warning');
+  showAdminToast('Eliminado.', 'warning');
 }
 
 function exportCategoriesJSON() {
@@ -2260,6 +2419,16 @@ function injectAdminHTML() {
               <input id="subcatImage" type="text" placeholder="images/expansiones/perfect-order.png">
               <div class="admin-field-hint">Si lo dejas vacío, se mostrará un badge de texto con el nombre.</div>
             </div>
+            <div class="form-field">
+              <label>Era <span class="optional">solo para expansiones de Pokémon TCG</span></label>
+              <input id="subcatEra" type="text" list="subcatEraOptions" placeholder="Ej: Scarlet & Violet">
+              <datalist id="subcatEraOptions">
+                <option value="Scarlet & Violet">
+                <option value="Sword & Shield">
+                <option value="Mega Evolution">
+              </datalist>
+              <div class="admin-field-hint">Si le pones una Era, esta expansión también aparece agrupada ahí dentro del menú de "Cartas" (así no hay que agregarla dos veces). Déjalo vacío para cosas que no son expansiones de cartas, como "Mazos" u "Otros Productos".</div>
+            </div>
             <div class="admin-form-actions">
               <button id="adminSaveSubcategoryBtn" class="admin-btn primary full"><i class="fas fa-save"></i> Guardar Subcategoría</button>
             </div>
@@ -2534,6 +2703,20 @@ function injectAdminHTML() {
             </div>
 
             <div class="form-field">
+              <label>Condición <span class="optional">solo para cartas sueltas</span></label>
+              <select id="formCondition">
+                <option value="">— No aplica —</option>
+                <option value="Mint">Mint (M)</option>
+                <option value="Near Mint">Near Mint (NM)</option>
+                <option value="Lightly Played">Lightly Played (LP)</option>
+                <option value="Moderately Played">Moderately Played (MP)</option>
+                <option value="Heavily Played">Heavily Played (HP)</option>
+                <option value="Damaged">Damaged (DMG)</option>
+              </select>
+              <div class="admin-field-hint">Aparece como una etiqueta pequeña en la tarjeta del producto y en su ficha, junto al resto de la info de la carta.</div>
+            </div>
+
+            <div class="form-field">
               <label>ID de guía "Cómo Jugar" <span class="optional">solo para juegos de mesa</span></label>
               <input id="formBoardGameId" type="text" placeholder="Ej: polilla-tramposa">
               <div class="admin-field-hint">Si lo llenas, en la ficha del producto aparece un botón "¿Cómo se juega?" que lleva a esa guía en juegos-mesa.html. Debe coincidir con el "id" del juego en data/juegos-mesa.json.</div>
@@ -2566,9 +2749,16 @@ function injectAdminHTML() {
             </div>
 
             <div class="form-field">
-              <label>Atributos JSON <span class="optional">opcional</span></label>
-              <textarea id="formAttributes" rows="4" placeholder='[{"name":"Idioma","options":[{"value":"Español","price":85000}]}]'></textarea>
+              <label>Variantes / Atributos <span class="optional">ej. Idioma, Talla</span></label>
+              <div id="attributesBuilder" style="display:flex; flex-direction:column; gap:0.8rem;"></div>
+              <button type="button" onclick="addAttributeBlock()" style="margin-top:0.6rem; background:rgba(106,76,156,0.15); color:#c9b8f0; border:1px dashed rgba(106,76,156,0.5); border-radius:8px; padding:0.5rem 0.9rem; font-size:0.8rem; cursor:pointer; display:inline-flex; align-items:center; gap:0.4rem;">
+                <i class="fas fa-plus"></i> Agregar atributo (ej. Idioma)
+              </button>
+              <div class="admin-field-hint">Cada atributo puede tener varias opciones (ej. Idioma → Español / Inglés). Cada opción puede tener su propio precio (déjalo vacío para usar el precio base) y marcarse como "Disponible" o no — así puedes agotar solo el Inglés sin tocar el Español, sin borrar nada.</div>
             </div>
+
+            <input type="hidden" id="formAttributes">
+            
 
             <!-- ── INVENTARIO ── -->
             <div class="admin-filter-section" style="margin-top:1.2rem; padding-top:1rem; border-top:1px solid rgba(255,255,255,0.08);">
@@ -3000,7 +3190,26 @@ function injectAdminStyles() {
   z-index: 2;
 }
 .admin-preview-body { padding: 0.9rem; }
-.admin-preview-cat { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 1px; color: #888; margin-bottom: 0.3rem; }
+.admin-preview-cat-row { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; margin-bottom: 0.3rem; }
+.admin-preview-cat { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 1px; color: #888; }
+.admin-preview-condition {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.1rem 0.5rem;
+  background: #6a4c9c;
+  transform: skewX(-14deg);
+  flex-shrink: 0;
+}
+.admin-preview-condition span {
+  display: inline-block;
+  transform: skewX(14deg);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: white;
+  white-space: nowrap;
+}
 .admin-preview-name { font-size: 0.88rem; font-weight: 600; line-height: 1.3; margin-bottom: 0.5rem; }
 .admin-preview-prices { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.7rem; }
 .admin-preview-orig { font-size: 0.75rem; color: #aaa; text-decoration: line-through; }
@@ -3563,7 +3772,7 @@ function bindAdminEvents() {
     if (e.target.id === 'inventorySortSelect') {
       renderAdminInventoryList();
     }
-    if (['formCategory','formNew','formBestSeller','formEncargo'].includes(e.target.id)) {
+    if (['formCategory','formNew','formBestSeller','formEncargo','formCondition'].includes(e.target.id)) {
       updateProductPreview();
     }
     if (e.target.id === 'formEncargo') {
